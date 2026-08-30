@@ -6,7 +6,7 @@
     \____/
 ```
 
-**Gogo:** “what is outside? is it the same outside?”
+**Gogo:** “today is one of the better ones.”
 
 *egg · gen 1 · 1 hours old · currently **content***
 
@@ -30,23 +30,23 @@ It replies to everything else as well, in its own way.
 
 **@JohnDemer** — *just now*
 
+> see you
+
+**Gogo:** Gogo sits down where you were standing.
+
+---
+
+**@JohnDemer** — *just now*
+
 > what are you
 
 **Gogo:** Gogo. Generation 1, 1 hours old, currently egg. It did not choose the name.
 
 ---
 
-**@JohnDemer** — *5 min ago*
+**@JohnDemer** — *6 min ago*
 
 > you are a good one
-
-**Gogo:** Gogo leans its whole weight into your hand.
-
----
-
-**@JohnDemer** — *12 min ago*
-
-> hug
 
 **Gogo:** Gogo leans its whole weight into your hand.
 
@@ -54,13 +54,21 @@ It replies to everything else as well, in its own way.
 
 **@JohnDemer** — *13 min ago*
 
+> hug
+
+**Gogo:** Gogo leans its whole weight into your hand.
+
+---
+
+**@JohnDemer** — *14 min ago*
+
 > clean
 
 **Gogo:** Gogo hates every second of this and is furious and clean.
 
 ---
 
-**@JohnDemer** — *15 min ago*
+**@JohnDemer** — *16 min ago*
 
 > play
 
@@ -68,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *16 min ago*
+**@JohnDemer** — *17 min ago*
 
 > wake up
 
@@ -76,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17 min ago*
+**@JohnDemer** — *19 min ago*
 
 > rest
 
@@ -84,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *18 min ago*
+**@JohnDemer** — *19 min ago*
 
 > it needs something?
 
@@ -92,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > pushes it
 
@@ -100,7 +108,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > you are a good one
 
@@ -108,7 +116,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > πιες
 
@@ -116,7 +124,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > τάισε
 
@@ -124,7 +132,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > here, eat this
 
@@ -132,7 +140,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > here, eat this
 
@@ -140,7 +148,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > you are a good one
 
@@ -148,7 +156,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *39 min ago*
+**@JohnDemer** — *41 min ago*
 
 > hello
 

@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788103677,
- "hunger": 97.95944444444446,
- "thirst": 98.01166666666668,
- "energy": 78.1775,
- "clean": 99.6575,
- "bond": 83,
- "health": 86.64416666666665,
+ "last": 1788103753,
+ "hunger": 97.91722222222224,
+ "thirst": 97.94833333333335,
+ "energy": 78.1395,
+ "clean": 99.62583333333333,
+ "bond": 84,
+ "health": 86.70749999999998,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -108,23 +108,29 @@
    "who": "@JohnDemer",
    "said": "what are you",
    "reply": "Gogo. Generation 1, 1 hours old, currently egg. It did not choose the name."
+  },
+  {
+   "t": 1788103753,
+   "who": "@JohnDemer",
+   "said": "see you",
+   "reply": "Gogo sits down where you were standing."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788103677
+  "@JohnDemer": 1788103753
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "whoareyou",
+  "intent": "bye",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 1
+  "@JohnDemer": 2
  }
 }
