@@ -369,40 +369,91 @@ def sprite_for(s):
     return stage(s)
 
 
+def status_word(v):
+    if v <= 10:
+        return "EMPTY"
+    if v < 30:
+        return "LOW"
+    if v < 65:
+        return "OK"
+    return "GOOD"
+
+
 def bar(x, y, value, label, out):
+    """One need. Blinks when it is about to become a problem."""
     w = 46
     fill = int(w * value / 100)
-    out.append(f'<text x="{x}" y="{y - 3}" font-size="7" fill="{LCD_D}" '
-               f'font-family="monospace">{label}</text>')
+    critical = value < 25
+    blink = ('<animate attributeName="opacity" values="1;0.15;1" dur="1s" '
+             'repeatCount="indefinite"/>') if critical else ""
+
+    out.append(f'<g>{blink}'
+               f'<text x="{x}" y="{y - 3}" font-size="7" fill="{LCD_D}" '
+               f'font-family="monospace">{label}</text></g>')
     out.append(f'<rect x="{x}" y="{y}" width="{w}" height="6" fill="none" '
                f'stroke="{LCD_D}" stroke-width="1"/>')
     if fill > 1:
         out.append(f'<rect x="{x + 1}" y="{y + 1}" width="{fill - 2}" height="4" '
                    f'fill="{LCD_D}"/>')
+    out.append(f'<text x="{x}" y="{y + 15}" font-size="6" fill="{LCD_M}" '
+               f'font-family="monospace">{status_word(value)}</text>')
+
+
+# Each state moves differently. This is the only reason the picture feels alive
+# rather than being a status readout with a face drawn on it.
+MOTION = {
+    "egg":       ('rotate', '-4 66 55; 4 66 55; -4 66 55', '3.2s'),
+    "hatchling": ('translate', '0 0; 0 -4; 0 0', '0.9s'),
+    "child":     ('translate', '0 0; 0 -5; 0 0', '1.1s'),
+    "adult":     ('translate', '0 0; 0 -3; 0 0', '1.8s'),
+    "elder":     ('translate', '0 0; 0 -2; 0 0', '3.4s'),
+    "asleep":    ('scale', '1 1; 1 1.05; 1 1', '4s'),
+    "sick":      ('translate', '-1 0; 1 0; -1 1; 1 0; -1 0', '0.35s'),
+    "dead":      ('translate', '0 0; 0 -6; 0 -12', '6s'),
+}
 
 
 def render(s):
     o = []
     a = o.append
-    a('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="330" '
-      'viewBox="0 0 300 330" font-family="ui-monospace,monospace">')
+    a('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="352" '
+      'viewBox="0 0 300 352" font-family="ui-monospace,monospace">')
 
-    a(f'<rect width="300" height="330" rx="26" fill="{SHELL}"/>')
-    a(f'<rect x="6" y="6" width="288" height="318" rx="22" fill="none" '
+    a(f'<rect width="300" height="352" rx="26" fill="{SHELL}"/>')
+    a(f'<rect x="6" y="6" width="288" height="340" rx="22" fill="none" '
       f'stroke="{SHELL_D}" stroke-width="2"/>')
     a(f'<text x="150" y="30" font-size="10" fill="{SHELL_D}" text-anchor="middle" '
       f'letter-spacing="4">README PET</text>')
 
-    # screen
-    a(f'<rect x="26" y="42" width="248" height="196" rx="8" fill="{LCD}"/>')
-    a(f'<rect x="26" y="42" width="248" height="196" rx="8" fill="none" '
+    a(f'<rect x="26" y="42" width="248" height="214" rx="8" fill="{LCD}"/>')
+    a(f'<rect x="26" y="42" width="248" height="214" rx="8" fill="none" '
       f'stroke="{LCD_D}" stroke-width="2" opacity=".5"/>')
 
-    # creature, drawn big and blocky in the middle of the screen
-    grid = SPRITES[sprite_for(s)]
+    state_name = sprite_for(s)
+    grid = SPRITES[state_name]
     cell = 11
     ox = 150 - (len(grid[0]) * cell) / 2
-    oy = 64
+    oy = 60
+
+    kind, values, dur = MOTION[state_name]
+    a('<g>')
+    if state_name == "asleep":
+        # breathing has to happen around the creature's own middle, not the corner
+        a(f'<animateTransform attributeName="transform" type="{kind}" '
+          f'values="{values}" dur="{dur}" repeatCount="indefinite" '
+          f'additive="sum"/>')
+        a(f'<g transform="translate(0,0)">')
+    else:
+        rc = "1" if state_name == "dead" else "indefinite"
+        fill_mode = ' fill="freeze"' if state_name == "dead" else ""
+        a(f'<animateTransform attributeName="transform" type="{kind}" '
+          f'values="{values}" dur="{dur}" repeatCount="{rc}"{fill_mode}/>')
+        a('<g>')
+
+    if state_name == "dead":
+        a('<animate attributeName="opacity" values="1;0.25" dur="6s" '
+          'repeatCount="1" fill="freeze"/>')
+
     for r, row in enumerate(grid):
         for c, ch in enumerate(row):
             if ch == ".":
@@ -410,27 +461,60 @@ def render(s):
             col = LCD_D if ch == "x" else LCD_M
             a(f'<rect x="{ox + c * cell}" y="{oy + r * cell}" width="{cell - 1}" '
               f'height="{cell - 1}" fill="{col}"/>')
+    a('</g></g>')
+
+    # a blink: two dark bars dropped over the eye row, briefly
+    if state_name not in ("asleep", "dead", "egg"):
+        a(f'<g opacity="0"><animate attributeName="opacity" '
+          f'values="0;0;1;0;0" keyTimes="0;0.94;0.96;0.98;1" dur="5.5s" '
+          f'repeatCount="indefinite"/>'
+          f'<rect x="{ox + 2 * cell}" y="{oy + 2 * cell}" width="{cell * 8}" '
+          f'height="{cell - 2}" fill="{LCD}"/></g>')
 
     if s["asleep"]:
-        a(f'<text x="238" y="72" font-size="14" fill="{LCD_D}">z</text>')
-        a(f'<text x="250" y="62" font-size="10" fill="{LCD_M}">z</text>')
+        for i, (zx, zy, size, delay) in enumerate(
+                [(236, 78, 13, "0s"), (250, 66, 10, "1.1s"), (262, 56, 8, "2.2s")]):
+            a(f'<text x="{zx}" y="{zy}" font-size="{size}" fill="{LCD_D}" opacity="0">z'
+              f'<animate attributeName="opacity" values="0;1;0" dur="3.3s" '
+              f'begin="{delay}" repeatCount="indefinite"/>'
+              f'<animate attributeName="y" values="{zy};{zy - 10}" dur="3.3s" '
+              f'begin="{delay}" repeatCount="indefinite"/></text>')
 
-    # needs, along the bottom of the screen
-    bar(38, 202, s["hunger"], "FED", o)
-    bar(96, 202, s["thirst"], "WATER", o)
-    bar(154, 202, s["energy"], "REST", o)
-    bar(212, 202, s["clean"], "CLEAN", o)
-    a(f'<text x="38" y="228" font-size="8" fill="{LCD_D}">HEALTH {int(s["health"])}'
-      f'  BOND {int(s["bond"])}</text>')
+    # an alarm above its head when something is actually wrong
+    need = urgent(s)
+    if need and not s["dead"]:
+        a(f'<text x="150" y="56" font-size="16" fill="{LCD_D}" text-anchor="middle" '
+          f'font-weight="700">!'
+          f'<animate attributeName="opacity" values="1;0;1" dur="0.9s" '
+          f'repeatCount="indefinite"/></text>')
 
-    # plastic below the screen
+    bar(38, 196, s["hunger"], "FED", o)
+    bar(96, 196, s["thirst"], "WATER", o)
+    bar(154, 196, s["energy"], "REST", o)
+    bar(212, 196, s["clean"], "CLEAN", o)
+
+    if s["dead"]:
+        verdict, blink = "GONE", ""
+    elif s["health"] < 40 or need:
+        wording = {"thirst": "WATER", "hunger": "FOOD",
+                   "energy": "SLEEP", "clean": "A WASH"}
+        verdict = "NEEDS " + wording.get(need, "CARE")
+        blink = ('<animate attributeName="opacity" values="1;0.2;1" dur="1.2s" '
+                 'repeatCount="indefinite"/>')
+    else:
+        verdict, blink = "DOING FINE", ""
+    a(f'<text x="38" y="230" font-size="9" fill="{LCD_D}" font-weight="700">'
+      f'{verdict}{blink}</text>')
+    a(f'<text x="38" y="245" font-size="8" fill="{LCD_M}">HEALTH {int(s["health"])}'
+      f'   BOND {int(s["bond"])}   {"ASLEEP" if s["asleep"] else "AWAKE"}</text>')
+
     label = "gone" if s["dead"] else stage(s)
-    a(f'<text x="150" y="264" font-size="15" fill="{INK}" text-anchor="middle" '
+    a(f'<text x="150" y="286" font-size="15" fill="{INK}" text-anchor="middle" '
       f'font-weight="700" letter-spacing="2">{s["name"].upper()}</text>')
-    a(f'<text x="150" y="280" font-size="9" fill="{SHELL_D}" text-anchor="middle">'
+    a(f'<text x="150" y="302" font-size="9" fill="{SHELL_D}" text-anchor="middle">'
       f'gen {s["gen"]} \u00b7 {label} \u00b7 {age_hours(s):.0f}h old</text>')
-    for i, cx in enumerate((110, 150, 190)):
-        a(f'<circle cx="{cx}" cy="302" r="9" fill="{SHELL_D}"/>')
+    for cx in (110, 150, 190):
+        a(f'<circle cx="{cx}" cy="324" r="9" fill="{SHELL_D}"/>')
     a('</svg>')
     return "".join(o)
 
