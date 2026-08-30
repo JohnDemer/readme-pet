@@ -16,7 +16,7 @@ import textwrap
 import time
 
 STATE = "state.json"
-COOLDOWN = 100          # seconds before the same person can act again
+COOLDOWN = 0            # seconds before the same person can act again
                         # 0 while it is just you. Raise to ~120 once people arrive.
 MAX_CHAT = 14
 
@@ -678,8 +678,12 @@ def readme(s, repo):
     a = L.append
     a(f"# Talk to {s['name']}")
     a("")
-    a(f'<img src="creature.gif?v={int(time.time())}" width="300" align="right" '
-      f'alt="{s["name"]}">')
+    # An absolute raw URL, not a relative path. GitHub's image proxy does not
+    # resolve relative paths that carry a query string, and the query string is
+    # what forces a fresh copy instead of a cached one.
+    gif = (f"https://raw.githubusercontent.com/{repo}/main/creature.gif"
+           f"?v={int(time.time())}")
+    a(f'<p align="center"><img src="{gif}" width="300" alt="{s["name"]}"></p>')
     a("")
     a(f"### \u201c{said_now}\u201d")
     a("")
@@ -697,8 +701,6 @@ def readme(s, repo):
       "the sentence goes in the **title**, the body can stay empty. "
       "English or Greek. It answers everything, including things it doesn't "
       "understand.")
-    a("")
-    a("<br clear=\"all\">")
     a("")
     a("## What you have said to each other")
     a("")
