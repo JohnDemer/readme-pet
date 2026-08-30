@@ -391,182 +391,139 @@ def status_word(v):
     return "GOOD"
 
 
-def bar(x, y, value, label, out):
-    """One need. Blinks when it is about to become a problem."""
-    w = 46
-    fill = int(w * value / 100)
-    critical = value < 25
-    blink = ('<animate attributeName="opacity" values="1;0.15;1" dur="1s" '
-             'repeatCount="indefinite"/>') if critical else ""
+# GitHub strips animation out of SVG files it serves from a repository, so the
+# handheld is drawn as a real animated GIF instead. Slower to build, but it
+# actually moves, which is the entire point.
+from PIL import Image, ImageDraw, ImageFont
 
-    out.append(f'<g>{blink}'
-               f'<text x="{x}" y="{y - 3}" font-size="7" fill="{LCD_D}" '
-               f'font-family="monospace">{label}</text></g>')
-    out.append(f'<rect x="{x}" y="{y}" width="{w}" height="6" fill="none" '
-               f'stroke="{LCD_D}" stroke-width="1"/>')
-    if fill > 1:
-        out.append(f'<rect x="{x + 1}" y="{y + 1}" width="{fill - 2}" height="4" '
-                   f'fill="{LCD_D}"/>')
-    out.append(f'<text x="{x}" y="{y + 15}" font-size="6" fill="{LCD_M}" '
-               f'font-family="monospace">{status_word(value)}</text>')
+CANVAS = (300, 352)
+CELL = 11
+FONT = ImageFont.load_default()
 
-
-# Each state moves differently. This is the only reason the picture feels alive
-# rather than being a status readout with a face drawn on it.
-MOTION = {
-    "egg":       ('rotate', '-4 66 55; 4 66 55; -4 66 55', '3.2s'),
-    "hatchling": ('translate', '0 0; 0 -4; 0 0', '0.9s'),
-    "child":     ('translate', '0 0; 0 -5; 0 0', '1.1s'),
-    "adult":     ('translate', '0 0; 0 -3; 0 0', '1.8s'),
-    "elder":     ('translate', '0 0; 0 -2; 0 0', '3.4s'),
-    "asleep":    ('scale', '1 1; 1 1.05; 1 1', '4s'),
-    "sick":      ('translate', '-1 0; 1 0; -1 1; 1 0; -1 0', '0.35s'),
-    "dead":      ('translate', '0 0; 0 -6; 0 -12', '6s'),
+# how the creature moves in each state: (vertical offsets, tilt in degrees)
+IDLE = {
+    "egg":       ([0, 0, 0, 0, 0, 0], [-4, -2, 0, 2, 4, 0]),
+    "hatchling": ([0, -4, -6, -4, 0, 0], [0, 0, 0, 0, 0, 0]),
+    "child":     ([0, -3, -5, -3, 0, 1], [0, 0, 0, 0, 0, 0]),
+    "adult":     ([0, -2, -3, -2, 0, 0], [0, 0, 0, 0, 0, 0]),
+    "elder":     ([0, -1, -2, -1, 0, 0], [0, 0, 0, 0, 0, 0]),
+    "asleep":    ([0, 1, 2, 2, 1, 0], [0, 0, 0, 0, 0, 0]),
+    "sick":      ([0, 1, 0, 1, 0, 1], [-2, 2, -2, 2, -1, 1]),
+    "dead":      ([0, -1, -2, -3, -4, -5], [0, 0, 0, 0, 0, 0]),
 }
+DANCE = ([0, -9, -13, -9, 0, -6, -9, -6], [-14, -7, 0, 7, 14, 7, 0, -7])
+SULK = ([0, 2, 3, 2, 0, 1], [5, 6, 5, 3, 2, 3])
 
 
-def render(s):
-    o = []
-    a = o.append
-    a('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="352" '
-      'viewBox="0 0 300 352" font-family="ui-monospace,monospace">')
-
-    a(f'<rect width="300" height="352" rx="26" fill="{SHELL}"/>')
-    a(f'<rect x="6" y="6" width="288" height="340" rx="22" fill="none" '
-      f'stroke="{SHELL_D}" stroke-width="2"/>')
-    a(f'<text x="150" y="30" font-size="10" fill="{SHELL_D}" text-anchor="middle" '
-      f'letter-spacing="4">README PET</text>')
-
-    a(f'<rect x="26" y="42" width="248" height="214" rx="8" fill="{LCD}"/>')
-    a(f'<rect x="26" y="42" width="248" height="214" rx="8" fill="none" '
-      f'stroke="{LCD_D}" stroke-width="2" opacity=".5"/>')
-
-    state_name = sprite_for(s)
-    grid = SPRITES[state_name]
-    cell = 11
-    ox = 150 - (len(grid[0]) * cell) / 2
-    oy = 60
-
-    mood = s.get("mood") if state_name not in ("dead", "asleep") else None
-    # After somebody interacts, the creature reacts for 20 seconds and then
-    # settles back into its normal idle. The reaction is baked into the file,
-    # so it plays for whoever loads the page next.
-    if mood:
-        a('<g>')
-        if mood == "dance":
-            a('<animateTransform attributeName="transform" type="translate" '
-              'values="0 0; 0 -10; 0 0; 0 -5; 0 0" dur="0.62s" repeatCount="32" '
-              'fill="remove"/>')
-        else:
-            a('<animateTransform attributeName="transform" type="translate" '
-              'values="0 0; -3 2; 0 3; 3 2; 0 0" dur="1.4s" repeatCount="14" '
-              'fill="remove"/>')
-
-    kind, values, dur = MOTION[state_name]
-    begin = "20s" if mood else "0s"
-    a('<g>')
-    if mood == "dance":
-        a('<animateTransform attributeName="transform" type="rotate" '
-          'values="0 150 115; -14 150 115; 14 150 115; 0 150 115" '
-          'dur="0.62s" repeatCount="32" fill="remove"/>')
-    elif mood == "sulk":
-        a('<animateTransform attributeName="transform" type="rotate" '
-          'values="0 150 115; 6 150 115; 0 150 115" '
-          'dur="1.4s" repeatCount="14" fill="remove"/>')
-    if state_name == "asleep":
-        # breathing has to happen around the creature's own middle, not the corner
-        a(f'<animateTransform attributeName="transform" type="{kind}" '
-          f'values="{values}" dur="{dur}" repeatCount="indefinite" '
-          f'additive="sum"/>')
-        a(f'<g transform="translate(0,0)">')
-    else:
-        rc = "1" if state_name == "dead" else "indefinite"
-        fill_mode = ' fill="freeze"' if state_name == "dead" else ""
-        a(f'<animateTransform attributeName="transform" type="{kind}" '
-          f'values="{values}" dur="{dur}" begin="{begin}" '
-          f'repeatCount="{rc}"{fill_mode} additive="sum"/>')
-        a('<g>')
-
-    if state_name == "dead":
-        a('<animate attributeName="opacity" values="1;0.25" dur="6s" '
-          'repeatCount="1" fill="freeze"/>')
-
+def sprite_layer(grid, blink=False):
+    """The creature on its own transparent layer, so it can be tilted."""
+    w, h = len(grid[0]) * CELL, len(grid) * CELL
+    pad = 18
+    img = Image.new("RGBA", (w + pad * 2, h + pad * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
     for r, row in enumerate(grid):
         for c, ch in enumerate(row):
             if ch == ".":
                 continue
+            if blink and r == 2 and ch == "o":
+                continue          # eyes shut
             col = LCD_D if ch == "x" else LCD_M
-            a(f'<rect x="{ox + c * cell}" y="{oy + r * cell}" width="{cell - 1}" '
-              f'height="{cell - 1}" fill="{col}"/>')
-    a('</g></g>')
-    if mood:
-        a('</g>')
+            x, y = pad + c * CELL, pad + r * CELL
+            d.rectangle([x, y, x + CELL - 2, y + CELL - 2], fill=col)
+    return img
 
-    # notes for a good reaction, a small cloud for a bad one, gone after 20s
-    if mood:
-        glyph = "\u266a" if mood == "dance" else "\u2601"
-        for i, (nx, delay) in enumerate([(96, "0s"), (150, "0.9s"), (204, "1.7s")]):
-            a(f'<text x="{nx}" y="90" font-size="14" fill="{LCD_D}" '
-              f'text-anchor="middle" opacity="0">{glyph}'
-              f'<animate attributeName="opacity" values="0;1;0" dur="2.6s" '
-              f'begin="{delay}" repeatCount="8" fill="remove"/>'
-              f'<animate attributeName="y" values="96;68" dur="2.6s" '
-              f'begin="{delay}" repeatCount="8" fill="remove"/></text>')
 
-    # a blink: two dark bars dropped over the eye row, briefly
-    if state_name not in ("asleep", "dead", "egg"):
-        a(f'<g opacity="0"><animate attributeName="opacity" '
-          f'values="0;0;1;0;0" keyTimes="0;0.94;0.96;0.98;1" dur="5.5s" '
-          f'repeatCount="indefinite"/>'
-          f'<rect x="{ox + 2 * cell}" y="{oy + 2 * cell}" width="{cell * 8}" '
-          f'height="{cell - 2}" fill="{LCD}"/></g>')
+def draw_shell(s):
+    """Everything that does not move: the plastic, the bars, the words."""
+    img = Image.new("RGB", CANVAS, SHELL)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([6, 6, 293, 345], radius=22, outline=SHELL_D, width=2)
+    d.text((110, 24), "R E A D M E   P E T", font=FONT, fill=SHELL_D)
+    d.rounded_rectangle([26, 42, 273, 255], radius=8, fill=LCD)
 
-    if s["asleep"]:
-        for i, (zx, zy, size, delay) in enumerate(
-                [(236, 78, 13, "0s"), (250, 66, 10, "1.1s"), (262, 56, 8, "2.2s")]):
-            a(f'<text x="{zx}" y="{zy}" font-size="{size}" fill="{LCD_D}" opacity="0">z'
-              f'<animate attributeName="opacity" values="0;1;0" dur="3.3s" '
-              f'begin="{delay}" repeatCount="indefinite"/>'
-              f'<animate attributeName="y" values="{zy};{zy - 10}" dur="3.3s" '
-              f'begin="{delay}" repeatCount="indefinite"/></text>')
+    for i, (label, value) in enumerate([("FED", s["hunger"]), ("WATER", s["thirst"]),
+                                        ("REST", s["energy"]), ("CLEAN", s["clean"])]):
+        x = 38 + i * 58
+        d.text((x, 190), label, font=FONT, fill=LCD_D)
+        d.rectangle([x, 201, x + 45, 207], outline=LCD_D)
+        fill = int(43 * value / 100)
+        if fill > 0:
+            d.rectangle([x + 1, 202, x + 1 + fill, 206], fill=LCD_D)
+        d.text((x, 211), status_word(value), font=FONT, fill=LCD_M)
 
-    # an alarm above its head when something is actually wrong
     need = urgent(s)
-    if need and not s["dead"]:
-        a(f'<text x="150" y="56" font-size="16" fill="{LCD_D}" text-anchor="middle" '
-          f'font-weight="700">!'
-          f'<animate attributeName="opacity" values="1;0;1" dur="0.9s" '
-          f'repeatCount="indefinite"/></text>')
-
-    bar(38, 196, s["hunger"], "FED", o)
-    bar(96, 196, s["thirst"], "WATER", o)
-    bar(154, 196, s["energy"], "REST", o)
-    bar(212, 196, s["clean"], "CLEAN", o)
-
     if s["dead"]:
-        verdict, blink = "GONE", ""
+        verdict = "GONE"
     elif s["health"] < 40 or need:
-        wording = {"thirst": "WATER", "hunger": "FOOD",
-                   "energy": "SLEEP", "clean": "A WASH"}
-        verdict = "NEEDS " + wording.get(need, "CARE")
-        blink = ('<animate attributeName="opacity" values="1;0.2;1" dur="1.2s" '
-                 'repeatCount="indefinite"/>')
+        verdict = "NEEDS " + {"thirst": "WATER", "hunger": "FOOD",
+                              "energy": "SLEEP", "clean": "A WASH"}.get(need, "CARE")
     else:
-        verdict, blink = "DOING FINE", ""
-    a(f'<text x="38" y="230" font-size="9" fill="{LCD_D}" font-weight="700">'
-      f'{verdict}{blink}</text>')
-    a(f'<text x="38" y="245" font-size="8" fill="{LCD_M}">HEALTH {int(s["health"])}'
-      f'   BOND {int(s["bond"])}   {"ASLEEP" if s["asleep"] else "AWAKE"}</text>')
+        verdict = "DOING FINE"
+    d.text((38, 228), verdict, font=FONT, fill=LCD_D)
+    d.text((38, 240), "HEALTH %d   BOND %d   %s" %
+           (s["health"], s["bond"], "ASLEEP" if s["asleep"] else "AWAKE"),
+           font=FONT, fill=LCD_M)
 
-    label = "gone" if s["dead"] else stage(s)
-    a(f'<text x="150" y="286" font-size="15" fill="{INK}" text-anchor="middle" '
-      f'font-weight="700" letter-spacing="2">{s["name"].upper()}</text>')
-    a(f'<text x="150" y="302" font-size="9" fill="{SHELL_D}" text-anchor="middle">'
-      f'gen {s["gen"]} \u00b7 {label} \u00b7 {age_hours(s):.0f}h old</text>')
+    name = s["name"].upper()
+    d.text((150 - len(name) * 3, 284), name, font=FONT, fill=INK)
+    meta = "gen %d - %s - %dh old" % (s["gen"], "gone" if s["dead"] else stage(s),
+                                      age_hours(s))
+    d.text((150 - len(meta) * 3, 300), meta, font=FONT, fill=SHELL_D)
     for cx in (110, 150, 190):
-        a(f'<circle cx="{cx}" cy="324" r="9" fill="{SHELL_D}"/>')
-    a('</svg>')
-    return "".join(o)
+        d.ellipse([cx - 9, 315, cx + 9, 333], fill=SHELL_D)
+    return img
+
+
+def render_gif(s, path="creature.gif"):
+    state_name = sprite_for(s)
+    grid = SPRITES[state_name]
+    mood = s.get("mood") if state_name not in ("dead", "asleep") else None
+
+    if mood == "dance":
+        offsets, tilts = DANCE
+        reps, hold = 3, 90
+    elif mood == "sulk":
+        offsets, tilts = SULK
+        reps, hold = 3, 170
+    else:
+        offsets, tilts = IDLE[state_name]
+        reps, hold = 3, 170
+
+    shell = draw_shell(s)
+    frames, n = [], len(offsets)
+    total = n * reps
+    for i in range(total):
+        dy, tilt = offsets[i % n], tilts[i % n]
+        # a blink near the end of the loop, so it is rare rather than twitchy
+        blink = state_name not in ("asleep", "dead", "egg") and i == total - 3
+        layer = sprite_layer(grid, blink)
+        if tilt:
+            layer = layer.rotate(tilt, resample=Image.BICUBIC)
+        frame = shell.copy()
+        px = 150 - layer.width // 2
+        py = 116 - layer.height // 2 + dy
+        if state_name == "dead":
+            layer.putalpha(layer.getchannel("A").point(
+                lambda v, k=i: int(v * max(0.25, 1 - k / total))))
+        frame.paste(layer, (px, py), layer)
+
+        d = ImageDraw.Draw(frame)
+        if s["asleep"]:
+            for j, (zx, zy, step) in enumerate([(230, 70, 0), (244, 60, 2), (256, 52, 4)]):
+                if (i + step) % n < 4:
+                    d.text((zx, zy - (i % n) * 2), "z", font=FONT, fill=LCD_D)
+        if mood:
+            glyph = "*" if mood == "dance" else "~"
+            for j, gx in enumerate((66, 234, 50)):
+                if (i + j * 2) % n < 3:
+                    d.text((gx, 150 - (i % n) * 5), glyph, font=FONT, fill=LCD_D)
+        if urgent(s) and not s["dead"] and i % n < n // 2:
+            d.text((148, 48), "!", font=FONT, fill=LCD_D)
+
+        frames.append(frame.convert("P", palette=Image.ADAPTIVE, colors=16))
+
+    frames[0].save(path, save_all=True, append_images=frames[1:],
+                   duration=hold, loop=0, optimize=True, disposal=2)
 
 
 # ---------------------------------------------------------------------------
@@ -587,7 +544,7 @@ def readme(s, repo):
       "It never tells you what it needs — you have to read it. "
       "Write to it and it does what you said, including when what you said is wrong.")
     a("")
-    a(f'<img src="creature.svg?v={int(time.time())}" width="300" alt="{s["name"]}">')
+    a(f'<img src="creature.gif?v={int(time.time())}" width="300" alt="{s["name"]}">')
     a("")
     a("### Say something to it")
     a("")
@@ -665,8 +622,7 @@ def main():
         reply = "time passed"
 
     save(s)
-    with open("creature.svg", "w") as f:
-        f.write(render(s))
+    render_gif(s)
     with open("README.md", "w") as f:
         f.write(readme(s, repo))
     with open("reply.txt", "w") as f:
