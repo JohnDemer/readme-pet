@@ -1,14 +1,14 @@
 # Gogo
 
 ```
-    /\_/\      z
-   ( _   _ )   z
-    >  _  <
+     ____
+    /    \
+    \____/
 ```
 
-**Gogo:** “( one foot is twitching )”
+**Gogo:** “today is one of the better ones.”
 
-*egg · gen 1 · 1 hours old · currently **asleep***
+*egg · gen 1 · 1 hours old · currently **alright***
 
 ```
 food   ██████████  water  ██████████
@@ -28,13 +28,21 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 **@JohnDemer** — *just now*
 
+> play
+
+**Gogo:** You woke Gogo up. It is not delighted about it.
+
+---
+
+**@JohnDemer** — *just now*
+
 > wake up
 
 **Gogo:** Gogo does not understand, but rolled over for no reason.
 
 ---
 
-**@JohnDemer** — *1 min ago*
+**@JohnDemer** — *2 min ago*
 
 > rest
 
@@ -42,7 +50,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *2 min ago*
+**@JohnDemer** — *3 min ago*
 
 > it needs something?
 
@@ -50,7 +58,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *2 min ago*
+**@JohnDemer** — *4 min ago*
 
 > pushes it
 
@@ -58,7 +66,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *4 min ago*
+**@JohnDemer** — *5 min ago*
 
 > you are a good one
 
@@ -66,7 +74,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > πιες
 
@@ -74,7 +82,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > τάισε
 
@@ -82,7 +90,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > here, eat this
 
@@ -90,7 +98,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > here, eat this
 
@@ -98,7 +106,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > you are a good one
 
@@ -106,7 +114,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *23 min ago*
+**@JohnDemer** — *24 min ago*
 
 > hello
 

@@ -2,14 +2,14 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788102700,
- "hunger": 98.50222222222223,
- "thirst": 98.82583333333334,
- "energy": 78.38616666666664,
- "clean": 64.3441666666667,
- "bond": 63,
- "health": 85.83,
- "asleep": true,
+ "last": 1788102773,
+ "hunger": 98.46166666666667,
+ "thirst": 98.765,
+ "energy": 78.62949999999998,
+ "clean": 64.31375000000003,
+ "bond": 59,
+ "health": 85.89083333333333,
+ "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
@@ -78,18 +78,24 @@
    "who": "@JohnDemer",
    "said": "wake up",
    "reply": "Gogo does not understand, but rolled over for no reason."
+  },
+  {
+   "t": 1788102773,
+   "who": "@JohnDemer",
+   "said": "play",
+   "reply": "You woke Gogo up. It is not delighted about it."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788102700
+  "@JohnDemer": 1788102773
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "",
+  "intent": "play",
   "count": 1
  },
  "sulk_until": 0,
