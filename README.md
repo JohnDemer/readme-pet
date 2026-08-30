@@ -2,7 +2,7 @@
 
 It gets hungry in real time, whether or not anyone is looking. It never tells you what it needs — you have to read it. Write to it and it does what you said, including when what you said is wrong.
 
-<img src="creature.svg?v=1788100213" width="300" alt="Gogo">
+<img src="creature.gif?v=1788100504" width="300" alt="Gogo">
 
 ### Say something to it
 
@@ -12,9 +12,12 @@ Or [**write your own words**](https://github.com/JohnDemer/readme-pet/issues/new
 
 ### What it looks like right now
 
-> Gogo rolled over for no reason.
+> Gogo is doing a small pleased hum.
 
 ### The conversation so far
+
+**@JohnDemer:** here, eat this  
+*Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.*
 
 **@JohnDemer:** here, eat this  
 *Gogo eats without breathing and looks up for more.*

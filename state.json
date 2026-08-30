@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788100213,
- "hunger": 99.88388888888889,
- "thirst": 68.56833333333334,
- "energy": 79.26933333333332,
- "clean": 85.38041666666669,
+ "last": 1788100504,
+ "hunger": 99.72222222222223,
+ "thirst": 68.32583333333334,
+ "energy": 79.12383333333332,
+ "clean": 75.25916666666669,
  "bond": 45,
- "health": 100,
+ "health": 92,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -27,13 +27,19 @@
    "who": "@JohnDemer",
    "said": "here, eat this",
    "reply": "Gogo eats without breathing and looks up for more."
+  },
+  {
+   "who": "@JohnDemer",
+   "said": "here, eat this",
+   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788100004
+  "@JohnDemer": 1788100504
  },
- "graves": []
+ "graves": [],
+ "mood": "sulk"
 }
