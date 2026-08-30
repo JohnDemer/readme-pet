@@ -19,6 +19,17 @@ COOLDOWN = 300          # seconds before the same person can act again
 MAX_CHAT = 14
 
 # ---------------------------------------------------------------------------
+# How fast it falls apart, in points per hour out of 100. These are the only
+# numbers worth touching. Gentle values while nobody has found the repo yet:
+# at these rates it comfortably survives a day alone and dies somewhere past
+# forty hours. Roughly double them once people actually show up.
+# ---------------------------------------------------------------------------
+HUNGER_RATE = 2.0
+THIRST_RATE = 3.0
+CLEAN_RATE = 1.5
+ENERGY_RATE = 1.8
+
+# ---------------------------------------------------------------------------
 # what the creature understands. Greek included, because half the people who
 # find this will type in Greek.
 # ---------------------------------------------------------------------------
@@ -113,9 +124,9 @@ def tick(s):
         return []
 
     events = []
-    s["hunger"] = clamp(s["hunger"] - 5.5 * hours)
-    s["thirst"] = clamp(s["thirst"] - 7.5 * hours)
-    s["clean"] = clamp(s["clean"] - 3.0 * hours)
+    s["hunger"] = clamp(s["hunger"] - HUNGER_RATE * hours)
+    s["thirst"] = clamp(s["thirst"] - THIRST_RATE * hours)
+    s["clean"] = clamp(s["clean"] - CLEAN_RATE * hours)
 
     if s["asleep"]:
         s["energy"] = clamp(s["energy"] + 12 * hours)
@@ -123,15 +134,15 @@ def tick(s):
             s["asleep"] = False
             events.append("woke up on its own.")
     else:
-        s["energy"] = clamp(s["energy"] - 3.5 * hours)
+        s["energy"] = clamp(s["energy"] - ENERGY_RATE * hours)
 
     # neglect hurts, care heals
     harm = 0
     for stat in ("hunger", "thirst"):
         if s[stat] <= 0:
-            harm += 5 * hours
+            harm += 1.4 * hours
         elif s[stat] < 20:
-            harm += 1.5 * hours
+            harm += 0.8 * hours
     if s["clean"] <= 5:
         harm += 1.5 * hours
     if harm == 0 and s["hunger"] > 50 and s["thirst"] > 50:
