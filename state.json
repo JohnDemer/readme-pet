@@ -1,0 +1,29 @@
+{
+ "gen": 1,
+ "name": "Gogo",
+ "born": 1788099188,
+ "last": 1788099188,
+ "hunger": 70,
+ "thirst": 70,
+ "energy": 80,
+ "clean": 90,
+ "bond": 41,
+ "health": 100,
+ "asleep": false,
+ "dead": false,
+ "cause": "",
+ "chat": [
+  {
+   "who": "@JohnDemer",
+   "said": "hello",
+   "reply": "Gogo does not understand, but seems fine, honestly."
+  }
+ ],
+ "carers": [
+  "@JohnDemer"
+ ],
+ "cooldown": {
+  "@JohnDemer": 1788099188
+ },
+ "graves": []
+}
