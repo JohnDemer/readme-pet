@@ -2,7 +2,7 @@
 
 It gets hungry in real time, whether or not anyone is looking. It never tells you what it needs — you have to read it. Write to it and it does what you said, including when what you said is wrong.
 
-<img src="creature.svg?v=1788099233" width="300" alt="Gogo">
+<img src="creature.svg?v=1788099258" width="300" alt="Gogo">
 
 ### Say something to it
 
@@ -12,7 +12,7 @@ Or [**write your own words**](https://github.com/JohnDemer/readme-pet/issues/new
 
 ### What it looks like right now
 
-> Gogo is doing a small pleased hum.
+> Gogo seems fine, honestly.
 
 ### The conversation so far
 
