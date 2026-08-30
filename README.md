@@ -1,8 +1,8 @@
 # Talk to Gogo
 
-<img src="creature.gif?v=1788101277" width="300" align="right" alt="Gogo">
+<img src="creature.gif?v=1788101292" width="300" align="right" alt="Gogo">
 
-### “i like it when the light does that.”
+### “what is outside? is it the same outside?”
 
 It is watching the screen and cycling through what's on its mind. It never names what it wants — you have to work it out from what it says and from the bars.
 
@@ -17,6 +17,10 @@ Or [**say your own thing**](https://github.com/JohnDemer/readme-pet/issues/new) 
 <br clear="all">
 
 ## What you have said to each other
+
+**@JohnDemer** — πιες
+
+> Gogo: Gogo drinks for a long time, then sneezes.
 
 **@JohnDemer** — τάισε
 
