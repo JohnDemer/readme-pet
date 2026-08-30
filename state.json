@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788101291,
- "hunger": 99.28500000000003,
- "thirst": 100,
- "energy": 78.7303333333333,
- "clean": 64.93125000000003,
- "bond": 47,
- "health": 84.65583333333333,
+ "last": 1788102448,
+ "hunger": 98.64222222222224,
+ "thirst": 99.03583333333333,
+ "energy": 78.1518333333333,
+ "clean": 64.4491666666667,
+ "bond": 58,
+ "health": 85.62,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -16,38 +16,58 @@
   {
    "who": "@JohnDemer",
    "said": "hello",
-   "reply": "Gogo does not understand, but seems fine, honestly."
+   "reply": "Gogo does not understand, but seems fine, honestly.",
+   "t": 1788101291
   },
   {
    "who": "@JohnDemer",
    "said": "you are a good one",
-   "reply": "Gogo does not understand, but is watching you."
+   "reply": "Gogo does not understand, but is watching you.",
+   "t": 1788101291
   },
   {
    "who": "@JohnDemer",
    "said": "here, eat this",
-   "reply": "Gogo eats without breathing and looks up for more."
+   "reply": "Gogo eats without breathing and looks up for more.",
+   "t": 1788101291
   },
   {
    "who": "@JohnDemer",
    "said": "here, eat this",
-   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food."
+   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.",
+   "t": 1788101291
   },
   {
    "who": "@JohnDemer",
    "said": "\u03c4\u03ac\u03b9\u03c3\u03b5",
-   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food."
+   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.",
+   "t": 1788101291
   },
   {
    "who": "@JohnDemer",
    "said": "\u03c0\u03b9\u03b5\u03c2",
-   "reply": "Gogo drinks for a long time, then sneezes."
+   "reply": "Gogo drinks for a long time, then sneezes.",
+   "t": 1788101291
+  },
+  {
+   "t": 1788102448,
+   "who": "@JohnDemer",
+   "said": "you are a good one",
+   "reply": "Gogo leans its whole weight into your hand."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
- "cooldown": {},
+ "cooldown": {
+  "@JohnDemer": 1788102448
+ },
  "graves": [],
- "mood": "dance"
+ "mood": "dance",
+ "streak": {
+  "intent": "love",
+  "count": 1
+ },
+ "sulk_until": 0,
+ "thread": 21
 }
