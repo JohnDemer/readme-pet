@@ -16,7 +16,7 @@ import textwrap
 import time
 
 STATE = "state.json"
-COOLDOWN = 0            # seconds before the same person can act again
+COOLDOWN = 100          # seconds before the same person can act again
                         # 0 while it is just you. Raise to ~120 once people arrive.
 MAX_CHAT = 14
 
