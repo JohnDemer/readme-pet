@@ -180,6 +180,7 @@ def new_creature(gen=1, graves=None):
         "asleep": False, "dead": False, "cause": "",
         "streak": {"intent": "", "count": 0},   # how many times in a row
         "sulk_until": 0,                        # hiding under the table until
+        "thread": 0,                            # the issue everyone talks in
         "chat": [], "carers": [], "cooldown": {}, "graves": graves or [],
     }
 
@@ -538,23 +539,8 @@ def meter(value):
 
 
 def readme(s, repo):
-    import urllib.parse
-
-    def link(label, sentence):
-        q = urllib.parse.urlencode({"title": sentence,
-                                    "body": "Whatever is in the title is what it "
-                                            "hears. Just press Create."})
-        return f"[{label}](https://github.com/{repo}/issues/new?{q})"
-
-    need = urgent(s)
-    replies = [("thirst", "here, water", "have some water"),
-               ("hunger", "here, food", "here, eat this"),
-               ("energy", "go to sleep", "go to sleep, i'll stay"),
-               ("clean", "let's wash you", "time for a bath")]
-    ordered = [r for r in replies if r[0] == need] + [r for r in replies if r[0] != need]
-    buttons = [link(l, t) for _, l, t in ordered]
-    buttons += [link("play with it", "lets play"),
-                link("be kind to it", "you are a good one")]
+    thread = s.get("thread") or 1
+    room = f"https://github.com/{repo}/issues/{thread}"
 
     L = []
     a = L.append
@@ -575,15 +561,14 @@ def readme(s, repo):
     a(f"health {meter(s['health'])}  bond   {meter(s['bond'])}")
     a("```")
     a("")
-    a("### Answer it")
+    a(f"## \u27a4 [Talk to {s['name']} here]({room})")
     a("")
-    a(" &nbsp;·&nbsp; ".join(buttons[:3]))
+    a(f"That opens the one thread everybody uses. Type a message in the box at "
+      f"the bottom, press Comment, and {s['name']} answers you underneath within "
+      "about half a minute. No titles, no forms, nothing to fill in.")
     a("")
-    a(" &nbsp;·&nbsp; ".join(buttons[3:]))
-    a("")
-    a(f"Or [**say your own thing**](https://github.com/{repo}/issues/new) \u2014 "
-      "the sentence goes in the **title**, leave the body empty. English or Greek. "
-      "It answers everything, including things it doesn't understand.")
+    a("It understands food, water, play, sleep, washing, kindness and medicine \u2014 "
+      "in English or Greek \u2014 and it replies to everything else too, in its own way.")
     a("")
     a("> It never says what it needs outright. Read what it says, check the bars, "
       "and don't do the same thing over and over \u2014 it has a limit, and you "
@@ -639,11 +624,16 @@ def readme(s, repo):
 
 
 def main():
-    text = os.environ.get("ISSUE_TITLE", "").strip()
+    # A comment in the chat thread is the normal way in. Opening an issue still
+    # works, so the very first message can create the thread.
+    text = (os.environ.get("COMMENT_BODY") or os.environ.get("ISSUE_TITLE") or "").strip()
     who = "@" + os.environ.get("ISSUE_ACTOR", "someone")
     repo = os.environ.get("GITHUB_REPOSITORY", "USER/readme-pet")
+    number = os.environ.get("ISSUE_NUMBER", "")
 
     s = load()
+    if number.isdigit() and not s.get("thread"):
+        s["thread"] = int(number)
     if text:
         reply, _ = care(s, text, who)
     else:
