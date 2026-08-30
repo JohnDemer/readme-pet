@@ -15,7 +15,7 @@ import sys
 import time
 
 STATE = "state.json"
-COOLDOWN = 300          # seconds before the same person can act again
+COOLDOWN = 0         # seconds before the same person can act again
 MAX_CHAT = 14
 
 # ---------------------------------------------------------------------------
