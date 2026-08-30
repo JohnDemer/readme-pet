@@ -45,7 +45,7 @@ INTENTS = {
               "κοιμησου", "κοιμήσου", "υπνο", "ύπνο", "ξεκουρασου"],
     "clean": ["clean", "wash", "bath", "shower", "soap", "tidy", "dirty",
               "καθαρισε", "καθάρισε", "μπανιο", "μπάνιο", "πλυνε", "πλύνε"],
-    "love": ["pet", "hug", "love", "cuddle", "kiss", "good boy", "good girl",
+    "love": ["pet", "hug", "love", "cuddle", "kiss", "good", "well done",
              "scratch", "praise", "proud", "sorry",
              "αγκαλια", "αγκαλιά", "χαιδεψε", "χάιδεψε", "σαγαπω", "σ'αγαπώ"],
     "heal": ["medicine", "doctor", "pill", "heal", "cure", "vet", "bandage",
@@ -68,6 +68,7 @@ def new_creature(gen=1, graves=None):
         "hunger": 70, "thirst": 70, "energy": 80, "clean": 90,
         "bond": 40, "health": 100,
         "asleep": False,
+        "mood": None,
         "dead": False,
         "cause": "",
         "chat": [],
@@ -221,22 +222,26 @@ SYMPTOMS = {
 
 def act(s, intent, text, who):
     """Apply what someone did. Returns the creature's reply."""
+    s["mood"] = None
     if s["asleep"] and intent not in (None, "love"):
         if intent == "sleep":
             return f"{s['name']} is already asleep. You are singing to a sleeping animal."
         s["asleep"] = False
         s["bond"] = clamp(s["bond"] - 4)
+        s["mood"] = "sulk"
         return f"You woke {s['name']} up. It is not delighted about it."
 
     if intent == "feed":
         if s["hunger"] > 88:
             s["health"] = clamp(s["health"] - 8)
             s["clean"] = clamp(s["clean"] - 10)
-            return (f"{s['name']} eats it because you offered. Then eats it again, "
-                    "in reverse, onto the floor. It did not need more food.")
+            s["mood"] = "sulk"
+            return (f"{s['name']} eats it because you offered. Then eats it "
+                    "again, in reverse, onto the floor. It did not need food.")
         s["hunger"] = clamp(s["hunger"] + 32)
         s["clean"] = clamp(s["clean"] - 4)
         s["bond"] = clamp(s["bond"] + 3)
+        s["mood"] = "dance"
         return f"{s['name']} eats without breathing and looks up for more."
 
     if intent == "water":
@@ -244,6 +249,7 @@ def act(s, intent, text, who):
             return f"{s['name']} sniffs the water and declines, politely."
         s["thirst"] = clamp(s["thirst"] + 38)
         s["bond"] = clamp(s["bond"] + 2)
+        s["mood"] = "dance"
         return f"{s['name']} drinks for a long time, then sneezes."
 
     if intent == "play":
@@ -255,6 +261,7 @@ def act(s, intent, text, who):
         s["hunger"] = clamp(s["hunger"] - 6)
         s["bond"] = clamp(s["bond"] + 9)
         s["clean"] = clamp(s["clean"] - 6)
+        s["mood"] = "dance"
         return f"{s['name']} plays until it falls over, which is the correct amount."
 
     if intent == "sleep":
@@ -265,23 +272,28 @@ def act(s, intent, text, who):
     if intent == "clean":
         s["clean"] = 100
         s["bond"] = clamp(s["bond"] + 2)
+        s["mood"] = "sulk"
         return f"{s['name']} hates every second of this and is furious and clean."
 
     if intent == "love":
         s["bond"] = clamp(s["bond"] + 11)
         if s["asleep"]:
             return f"You stroke {s['name']} while it sleeps. Its tail moves once."
+        s["mood"] = "dance"
         return f"{s['name']} leans its whole weight into your hand."
 
     if intent == "heal":
         if s["health"] > 85:
             s["health"] = clamp(s["health"] - 4)
-            return f"{s['name']} was not ill. It is now slightly less well than before."
+            s["mood"] = "sulk"
+            return f"{s['name']} was not ill. It is now slightly less well."
         s["health"] = clamp(s["health"] + 25)
+        s["mood"] = "dance"
         return f"{s['name']} swallows the medicine and glares at you throughout."
 
     if intent == "scold":
         s["bond"] = clamp(s["bond"] - 12)
+        s["mood"] = "sulk"
         return f"{s['name']} does not know the words but understood the tone."
 
     s["bond"] = clamp(s["bond"] + 1)
@@ -435,8 +447,32 @@ def render(s):
     ox = 150 - (len(grid[0]) * cell) / 2
     oy = 60
 
+    mood = s.get("mood") if state_name not in ("dead", "asleep") else None
+    # After somebody interacts, the creature reacts for 20 seconds and then
+    # settles back into its normal idle. The reaction is baked into the file,
+    # so it plays for whoever loads the page next.
+    if mood:
+        a('<g>')
+        if mood == "dance":
+            a('<animateTransform attributeName="transform" type="translate" '
+              'values="0 0; 0 -10; 0 0; 0 -5; 0 0" dur="0.62s" repeatCount="32" '
+              'fill="remove"/>')
+        else:
+            a('<animateTransform attributeName="transform" type="translate" '
+              'values="0 0; -3 2; 0 3; 3 2; 0 0" dur="1.4s" repeatCount="14" '
+              'fill="remove"/>')
+
     kind, values, dur = MOTION[state_name]
+    begin = "20s" if mood else "0s"
     a('<g>')
+    if mood == "dance":
+        a('<animateTransform attributeName="transform" type="rotate" '
+          'values="0 150 115; -14 150 115; 14 150 115; 0 150 115" '
+          'dur="0.62s" repeatCount="32" fill="remove"/>')
+    elif mood == "sulk":
+        a('<animateTransform attributeName="transform" type="rotate" '
+          'values="0 150 115; 6 150 115; 0 150 115" '
+          'dur="1.4s" repeatCount="14" fill="remove"/>')
     if state_name == "asleep":
         # breathing has to happen around the creature's own middle, not the corner
         a(f'<animateTransform attributeName="transform" type="{kind}" '
@@ -447,7 +483,8 @@ def render(s):
         rc = "1" if state_name == "dead" else "indefinite"
         fill_mode = ' fill="freeze"' if state_name == "dead" else ""
         a(f'<animateTransform attributeName="transform" type="{kind}" '
-          f'values="{values}" dur="{dur}" repeatCount="{rc}"{fill_mode}/>')
+          f'values="{values}" dur="{dur}" begin="{begin}" '
+          f'repeatCount="{rc}"{fill_mode} additive="sum"/>')
         a('<g>')
 
     if state_name == "dead":
@@ -462,6 +499,19 @@ def render(s):
             a(f'<rect x="{ox + c * cell}" y="{oy + r * cell}" width="{cell - 1}" '
               f'height="{cell - 1}" fill="{col}"/>')
     a('</g></g>')
+    if mood:
+        a('</g>')
+
+    # notes for a good reaction, a small cloud for a bad one, gone after 20s
+    if mood:
+        glyph = "\u266a" if mood == "dance" else "\u2601"
+        for i, (nx, delay) in enumerate([(96, "0s"), (150, "0.9s"), (204, "1.7s")]):
+            a(f'<text x="{nx}" y="90" font-size="14" fill="{LCD_D}" '
+              f'text-anchor="middle" opacity="0">{glyph}'
+              f'<animate attributeName="opacity" values="0;1;0" dur="2.6s" '
+              f'begin="{delay}" repeatCount="8" fill="remove"/>'
+              f'<animate attributeName="y" values="96;68" dur="2.6s" '
+              f'begin="{delay}" repeatCount="8" fill="remove"/></text>')
 
     # a blink: two dark bars dropped over the eye row, briefly
     if state_name not in ("asleep", "dead", "egg"):
