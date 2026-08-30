@@ -1,42 +1,52 @@
-# Gogo is alive because strangers keep it alive
+# Talk to Gogo
 
-It gets hungry in real time, whether or not anyone is looking. It never tells you what it needs — you have to read it. Write to it and it does what you said, including when what you said is wrong.
+<img src="creature.gif?v=1788101277" width="300" align="right" alt="Gogo">
 
-<img src="creature.gif?v=1788100655" width="300" alt="Gogo">
+### “i like it when the light does that.”
 
-### Say something to it
+It is watching the screen and cycling through what's on its mind. It never names what it wants — you have to work it out from what it says and from the bars.
 
-[give it food](https://github.com/JohnDemer/readme-pet/issues/new?title=here%2C+eat+this&body=Write+anything+you+like+as+the+title.+Then+press+Create.) · [give it water](https://github.com/JohnDemer/readme-pet/issues/new?title=have+some+water&body=Write+anything+you+like+as+the+title.+Then+press+Create.) · [play with it](https://github.com/JohnDemer/readme-pet/issues/new?title=lets+play&body=Write+anything+you+like+as+the+title.+Then+press+Create.) · [put it to bed](https://github.com/JohnDemer/readme-pet/issues/new?title=go+to+sleep&body=Write+anything+you+like+as+the+title.+Then+press+Create.) · [clean it](https://github.com/JohnDemer/readme-pet/issues/new?title=time+for+a+bath&body=Write+anything+you+like+as+the+title.+Then+press+Create.) · [be kind to it](https://github.com/JohnDemer/readme-pet/issues/new?title=you+are+a+good+one&body=Write+anything+you+like+as+the+title.+Then+press+Create.)
+**Answer it:**
 
-Or [**write your own words**](https://github.com/JohnDemer/readme-pet/issues/new) — put the sentence in the **title**, leave the body empty. It understands English and Greek, and it answers everything.
+[here, water](https://github.com/JohnDemer/readme-pet/issues/new?title=have+some+water&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)&nbsp;&nbsp;[here, food](https://github.com/JohnDemer/readme-pet/issues/new?title=here%2C+eat+this&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)&nbsp;&nbsp;[go to sleep](https://github.com/JohnDemer/readme-pet/issues/new?title=go+to+sleep%2C+i%27ll+stay&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)
 
-### What it looks like right now
+[let's wash you](https://github.com/JohnDemer/readme-pet/issues/new?title=time+for+a+bath&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)&nbsp;&nbsp;[play with it](https://github.com/JohnDemer/readme-pet/issues/new?title=lets+play&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)&nbsp;&nbsp;[tell it it's good](https://github.com/JohnDemer/readme-pet/issues/new?title=you+are+a+good+one&body=Whatever+you+write+in+the+title+is+what+it+hears.+Press+Create.)
 
-> Gogo rolled over for no reason.
+Or [**say your own thing**](https://github.com/JohnDemer/readme-pet/issues/new) — the sentence goes in the **title**, the body can stay empty. English or Greek. It answers everything, including things it doesn't understand.
 
-### The conversation so far
+<br clear="all">
 
-**@JohnDemer:** here, eat this  
-*Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.*
+## What you have said to each other
 
-**@JohnDemer:** here, eat this  
-*Gogo eats without breathing and looks up for more.*
+**@JohnDemer** — τάισε
 
-**@JohnDemer:** you are a good one  
-*Gogo does not understand, but is watching you.*
+> Gogo: Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.
 
-**@JohnDemer:** hello  
-*Gogo does not understand, but seems fine, honestly.*
+**@JohnDemer** — here, eat this
 
-1 people have looked after this one.
+> Gogo: Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.
+
+**@JohnDemer** — here, eat this
+
+> Gogo: Gogo eats without breathing and looks up for more.
+
+**@JohnDemer** — you are a good one
+
+> Gogo: Gogo does not understand, but is watching you.
+
+**@JohnDemer** — hello
+
+> Gogo: Gogo does not understand, but seems fine, honestly.
+
+*1 people have talked to this one.*
 
 ---
 
 <details><summary>How it works</summary>
 
-Opening an issue runs a GitHub Action. It reads `state.json`, works out how much time has passed since the last visitor and decays the creature by that much, matches your words against a list of intents, applies the effect, redraws the handheld, rewrites this page, then replies to your issue and closes it. No server. The repository is the pet.
+Opening an issue runs a GitHub Action. It reads `state.json`, works out how much time has passed since the last visitor and ages the creature by exactly that much, matches your sentence against a list of intents, applies it, redraws the handheld as an animated GIF, rewrites this page, then replies to your issue and closes it. No server. The repository is the pet.
 
-Overfeeding hurts it. Medicine when it is well hurts it. Waking it hurts it. The needs bars are the only honest information you get.
+Overfeeding hurts it. Medicine when it is well hurts it. Waking it hurts it. It gets hungry while you are asleep. If nobody comes for long enough it dies, permanently, and an egg takes its place.
 
 </details>
 
