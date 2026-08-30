@@ -1,0 +1,53 @@
+name: care
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: "0 */6 * * *"      # time passes even when nobody visits
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: pet
+  cancel-in-progress: false
+
+jobs:
+  care:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Live a little
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_ACTOR: ${{ github.event.issue.user.login }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python creature.py
+
+      - name: Save what happened
+        run: |
+          git config user.name "readme-pet"
+          git config user.email "actions@github.com"
+          git add state.json creature.svg README.md
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "${{ github.event_name == 'issues' && github.event.issue.title || 'time passes' }}"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && break
+            sleep 3
+          done
+
+      - name: Answer the visitor
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
+          gh issue close ${{ github.event.issue.number }}
