@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788103753,
- "hunger": 97.91722222222224,
- "thirst": 97.94833333333335,
- "energy": 78.1395,
- "clean": 99.62583333333333,
- "bond": 84,
- "health": 86.70749999999998,
+ "last": 1788104818,
+ "hunger": 97.32555555555557,
+ "thirst": 97.06083333333335,
+ "energy": 77.607,
+ "clean": 99.18208333333334,
+ "bond": 86,
+ "health": 87.59499999999998,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -114,23 +114,29 @@
    "who": "@JohnDemer",
    "said": "see you",
    "reply": "Gogo sits down where you were standing."
+  },
+  {
+   "t": 1788104818,
+   "who": "@JohnDemer",
+   "said": "hi",
+   "reply": "Gogo greets you by putting its head under your hand."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788103753
+  "@JohnDemer": 1788104818
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "bye",
+  "intent": "greet",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 2
+  "@JohnDemer": 3
  }
 }
