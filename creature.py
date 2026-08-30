@@ -190,6 +190,12 @@ def load():
         s = json.load(open(STATE))
         for k, v in new_creature().items():        # tolerate older state files
             s.setdefault(k, v)
+        # messages written by earlier versions have no timestamp
+        for m in s.get("chat", []):
+            m.setdefault("t", s.get("last", int(time.time())))
+            m.setdefault("who", "")
+            m.setdefault("said", "")
+            m.setdefault("reply", "")
         return s
     return new_creature()
 
@@ -579,13 +585,13 @@ def readme(s, repo):
     if s["chat"]:
         for m in reversed(s["chat"]):
             if m["who"]:
-                a(f"**{m['who']}** \u2014 *{ago(m['t'])}*")
+                a(f"**{m['who']}** \u2014 *{ago(m.get('t', s['last']))}*")
                 a("")
                 a(f"> {m['said']}")
                 a("")
                 a(f"**{s['name']}:** {m['reply']}")
             else:
-                a(f"*{m['reply']}* \u2014 *{ago(m['t'])}*")
+                a(f"*{m['reply']}* \u2014 *{ago(m.get('t', s['last']))}*")
             a("")
             a("---")
             a("")
