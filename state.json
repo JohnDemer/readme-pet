@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788102773,
- "hunger": 98.46166666666667,
- "thirst": 98.765,
- "energy": 78.62949999999998,
- "clean": 64.31375000000003,
- "bond": 59,
- "health": 85.89083333333333,
+ "last": 1788102855,
+ "hunger": 98.41611111111112,
+ "thirst": 98.69666666666667,
+ "energy": 78.58849999999998,
+ "clean": 100,
+ "bond": 61,
+ "health": 85.95916666666666,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -84,18 +84,24 @@
    "who": "@JohnDemer",
    "said": "play",
    "reply": "You woke Gogo up. It is not delighted about it."
+  },
+  {
+   "t": 1788102855,
+   "who": "@JohnDemer",
+   "said": "clean",
+   "reply": "Gogo hates every second of this and is furious and clean."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788102773
+  "@JohnDemer": 1788102855
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "play",
+  "intent": "clean",
   "count": 1
  },
  "sulk_until": 0,
