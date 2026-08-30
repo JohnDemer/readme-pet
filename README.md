@@ -1,14 +1,14 @@
 # Gogo
 
 ```
-     ____
-    /    \
-    \____/
+    /\_/\      z
+   ( _   _ )   z
+    >  _  <
 ```
 
-**Gogo:** “you came back. good.”
+**Gogo:** “( one foot is twitching )”
 
-*egg · gen 1 · 1 hours old · currently **alright***
+*egg · gen 1 · 1 hours old · currently **asleep***
 
 ```
 food   ██████████  water  ██████████
@@ -25,6 +25,14 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> rest
+
+**Gogo:** Gogo curls into a shape with no clear front, and sleeps.
+
+---
 
 **@JohnDemer** — *just now*
 
