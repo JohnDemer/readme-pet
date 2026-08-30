@@ -1,6 +1,8 @@
 name: care
 
 on:
+  issue_comment:
+    types: [created]
   issues:
     types: [opened]
   schedule:
@@ -17,20 +19,26 @@ concurrency:
 
 jobs:
   care:
+    # Ignore the pet's own replies, or it would talk to itself forever.
+    if: github.event_name != 'issue_comment' || github.event.comment.user.type != 'Bot'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
       - name: Live a little
         env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_ACTOR: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_ACTOR: ${{ github.event.comment.user.login || github.event.issue.user.login }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python creature.py
+        run: python3 creature.py
+
+      - name: Answer in the thread
+        if: github.event_name != 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
 
       - name: Save what happened
         run: |
@@ -38,16 +46,8 @@ jobs:
           git config user.email "actions@github.com"
           git add state.json README.md
           if git diff --staged --quiet; then exit 0; fi
-          git commit -m "${{ github.event_name == 'issues' && github.event.issue.title || 'time passes' }}"
+          git commit -m "said something"
           for i in 1 2 3; do
             git pull --rebase --autostash && git push && break
             sleep 3
           done
-
-      - name: Answer the visitor
-        if: github.event_name == 'issues'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
-          gh issue close ${{ github.event.issue.number }}
