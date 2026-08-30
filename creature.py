@@ -12,10 +12,12 @@ import json
 import os
 import random
 import sys
+import textwrap
 import time
 
 STATE = "state.json"
-COOLDOWN = 0         # seconds before the same person can act again
+COOLDOWN = 0            # seconds before the same person can act again
+                        # 0 while it is just you. Raise to ~120 once people arrive.
 MAX_CHAT = 14
 
 # ---------------------------------------------------------------------------
@@ -336,6 +338,104 @@ def care(s, text, who):
     return reply, True
 
 
+
+# ---------------------------------------------------------------------------
+# What it says. It has no idea what anything is called, so it describes things
+# instead, and asks questions it cannot answer itself.
+# ---------------------------------------------------------------------------
+VOICE = {
+    "thirst": [
+        "my mouth is a cupboard.",
+        "is there any of the wet thing left?",
+        "i licked the wall. it was not it.",
+        "i keep thinking about the bowl that shines.",
+    ],
+    "hunger": [
+        "the bowl is empty in a personal way.",
+        "i chewed on nothing for a while. it went badly.",
+        "when is the next one? is there a next one?",
+        "my middle is making an opinion.",
+    ],
+    "energy": [
+        "my eyes keep closing without me.",
+        "i sat down and forgot to get up.",
+        "is it night? it feels like night in here.",
+        "everything is heavier than this morning.",
+    ],
+    "clean": [
+        "something smells and i think it is me.",
+        "there is a crust behind my ear with a history.",
+        "i scratched the same spot forty times.",
+        "i would like to be less of whatever this is.",
+    ],
+    "sick": [
+        "i feel wrong in the middle.",
+        "the room is doing a slow circle.",
+        "i do not want to stand up today.",
+        "is this what old is?",
+    ],
+    "sad": [
+        "you were gone a long time.",
+        "nobody said anything for ages.",
+        "i waited by the door. there is no door.",
+        "did i do something?",
+    ],
+    "happy": [
+        "you came back. good.",
+        "what is outside? is it the same outside?",
+        "i had a thought earlier. it was round.",
+        "today is one of the better ones.",
+        "if i sit here, does that count as helping?",
+        "i like it when the light does that.",
+    ],
+    "asleep": [
+        "zzz",
+        "( it is dreaming about the bowl )",
+        "( one foot is twitching )",
+        "zzz ... zzz",
+    ],
+    "dead": [
+        "( the screen is quiet now )",
+        "( an egg is waiting )",
+        "",
+        "",
+    ],
+}
+
+
+def voice(s):
+    """Four things it wants to say, right now. Stable until something changes."""
+    if s["dead"]:
+        pool = VOICE["dead"]
+    elif s["asleep"]:
+        pool = VOICE["asleep"]
+    else:
+        need = urgent(s)
+        if s["health"] < 45:
+            pool = VOICE["sick"]
+        elif need:
+            pool = VOICE[need]
+        elif s["bond"] < 25:
+            pool = VOICE["sad"]
+        else:
+            pool = VOICE["happy"]
+
+    rng = random.Random(int(s["last"]) // 60 + int(s["bond"]))
+    lines = rng.sample(pool, min(3, len(pool)))
+
+    # every so often it says your name back at you
+    if s["carers"] and not s["dead"] and not s["asleep"]:
+        who = s["carers"][-1].lstrip("@")
+        lines.append(rng.choice([
+            f"{who}. that is you, isn't it.",
+            f"are you still there, {who}?",
+            f"{who} was the last one here.",
+        ]))
+    else:
+        lines.append(rng.choice(pool))
+    return lines
+
+
 # ---------------------------------------------------------------------------
 # the handheld
 # ---------------------------------------------------------------------------
@@ -396,7 +496,7 @@ def status_word(v):
 # actually moves, which is the entire point.
 from PIL import Image, ImageDraw, ImageFont
 
-CANVAS = (300, 352)
+CANVAS = (300, 372)
 CELL = 11
 FONT = ImageFont.load_default()
 
@@ -437,19 +537,22 @@ def draw_shell(s):
     """Everything that does not move: the plastic, the bars, the words."""
     img = Image.new("RGB", CANVAS, SHELL)
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([6, 6, 293, 345], radius=22, outline=SHELL_D, width=2)
+    d.rounded_rectangle([6, 6, 293, 365], radius=22, outline=SHELL_D, width=2)
     d.text((110, 24), "R E A D M E   P E T", font=FONT, fill=SHELL_D)
-    d.rounded_rectangle([26, 42, 273, 255], radius=8, fill=LCD)
+    d.rounded_rectangle([26, 42, 273, 245], radius=8, fill=LCD)
+
+    # a line across the screen: the creature above it, what it says below
+    d.line([34, 168, 265, 168], fill=LCD_M)
 
     for i, (label, value) in enumerate([("FED", s["hunger"]), ("WATER", s["thirst"]),
                                         ("REST", s["energy"]), ("CLEAN", s["clean"])]):
         x = 38 + i * 58
-        d.text((x, 190), label, font=FONT, fill=LCD_D)
-        d.rectangle([x, 201, x + 45, 207], outline=LCD_D)
+        d.text((x, 208), label, font=FONT, fill=LCD_D)
+        d.rectangle([x, 219, x + 45, 225], outline=LCD_D)
         fill = int(43 * value / 100)
         if fill > 0:
-            d.rectangle([x + 1, 202, x + 1 + fill, 206], fill=LCD_D)
-        d.text((x, 211), status_word(value), font=FONT, fill=LCD_M)
+            d.rectangle([x + 1, 220, x + 1 + fill, 224], fill=LCD_D)
+        d.text((x, 229), status_word(value), font=FONT, fill=LCD_M)
 
     need = urgent(s)
     if s["dead"]:
@@ -459,18 +562,17 @@ def draw_shell(s):
                               "energy": "SLEEP", "clean": "A WASH"}.get(need, "CARE")
     else:
         verdict = "DOING FINE"
-    d.text((38, 228), verdict, font=FONT, fill=LCD_D)
-    d.text((38, 240), "HEALTH %d   BOND %d   %s" %
-           (s["health"], s["bond"], "ASLEEP" if s["asleep"] else "AWAKE"),
-           font=FONT, fill=LCD_M)
+    d.text((38, 264), "%s   HEALTH %d   BOND %d   %s" %
+           (verdict, s["health"], s["bond"], "ASLEEP" if s["asleep"] else "AWAKE"),
+           font=FONT, fill=INK)
 
     name = s["name"].upper()
-    d.text((150 - len(name) * 3, 284), name, font=FONT, fill=INK)
+    d.text((150 - len(name) * 3, 288), name, font=FONT, fill=INK)
     meta = "gen %d - %s - %dh old" % (s["gen"], "gone" if s["dead"] else stage(s),
                                       age_hours(s))
-    d.text((150 - len(meta) * 3, 300), meta, font=FONT, fill=SHELL_D)
+    d.text((150 - len(meta) * 3, 302), meta, font=FONT, fill=SHELL_D)
     for cx in (110, 150, 190):
-        d.ellipse([cx - 9, 315, cx + 9, 333], fill=SHELL_D)
+        d.ellipse([cx - 9, 332, cx + 9, 350], fill=SHELL_D)
     return img
 
 
@@ -481,18 +583,27 @@ def render_gif(s, path="creature.gif"):
 
     if mood == "dance":
         offsets, tilts = DANCE
-        reps, hold = 3, 90
+        hold = 130
     elif mood == "sulk":
         offsets, tilts = SULK
-        reps, hold = 3, 170
+        hold = 200
     else:
         offsets, tilts = IDLE[state_name]
-        reps, hold = 3, 170
+        hold = 200
 
     shell = draw_shell(s)
-    frames, n = [], len(offsets)
-    total = n * reps
+    lines = voice(s)
+    n = len(offsets)
+    per_line = 8                  # frames each sentence stays on screen
+    total = len(lines) * per_line
+    frames = []
     for i in range(total):
+        # which sentence, and how much of it has been typed so far
+        li = i // per_line
+        step = i % per_line
+        said = textwrap.wrap(lines[li], 38)[:2]
+        chars = sum(len(x) for x in said)
+        shown = chars if step >= 4 else int(chars * (step + 1) / 5)
         dy, tilt = offsets[i % n], tilts[i % n]
         # a blink near the end of the loop, so it is rare rather than twitchy
         blink = state_name not in ("asleep", "dead", "egg") and i == total - 3
@@ -501,7 +612,7 @@ def render_gif(s, path="creature.gif"):
             layer = layer.rotate(tilt, resample=Image.BICUBIC)
         frame = shell.copy()
         px = 150 - layer.width // 2
-        py = 116 - layer.height // 2 + dy
+        py = 100 - layer.height // 2 + dy
         if state_name == "dead":
             layer.putalpha(layer.getchannel("A").point(
                 lambda v, k=i: int(v * max(0.25, 1 - k / total))))
@@ -514,11 +625,22 @@ def render_gif(s, path="creature.gif"):
                     d.text((zx, zy - (i % n) * 2), "z", font=FONT, fill=LCD_D)
         if mood:
             glyph = "*" if mood == "dance" else "~"
-            for j, gx in enumerate((66, 234, 50)):
+            for j, gx in enumerate((60, 236, 46)):
                 if (i + j * 2) % n < 3:
-                    d.text((gx, 150 - (i % n) * 5), glyph, font=FONT, fill=LCD_D)
+                    d.text((gx, 140 - (i % n) * 5), glyph, font=FONT, fill=LCD_D)
+        # the sentence, typed in
+        left = shown
+        for k, part in enumerate(said):
+            piece = part[:max(0, left)]
+            left -= len(part)
+            if piece:
+                d.text((38, 178 + k * 12), piece, font=FONT, fill=LCD_D)
+        if step < 4 and shown < chars:
+            d.text((38 + (len(said[0][:shown]) * 6 if len(said) else 0), 178),
+                   "_", font=FONT, fill=LCD_M)
+
         if urgent(s) and not s["dead"] and i % n < n // 2:
-            d.text((148, 48), "!", font=FONT, fill=LCD_D)
+            d.text((148, 46), "!", font=FONT, fill=LCD_D)
 
         frames.append(frame.convert("P", palette=Image.ADAPTIVE, colors=16))
 
@@ -531,58 +653,73 @@ def render_gif(s, path="creature.gif"):
 # ---------------------------------------------------------------------------
 def readme(s, repo):
     import urllib.parse
-    def new_issue(label, text):
-        q = urllib.parse.urlencode({"title": text, "body":
-                                    "Write anything you like as the title. Then press Create."})
+
+    def link(label, sentence):
+        q = urllib.parse.urlencode({"title": sentence, "body":
+              "Whatever you write in the title is what it hears. Press Create."})
         return f"[{label}](https://github.com/{repo}/issues/new?{q})"
+
+    # the replies it would most like to hear come first
+    need = urgent(s)
+    replies = [
+        ("thirst", "here, water", "have some water"),
+        ("hunger", "here, food", "here, eat this"),
+        ("energy", "go to sleep", "go to sleep, i'll stay"),
+        ("clean", "let's wash you", "time for a bath"),
+    ]
+    ordered = [r for r in replies if r[0] == need] + [r for r in replies if r[0] != need]
+    buttons = [link(lbl, txt) for _, lbl, txt in ordered]
+    buttons.append(link("play with it", "lets play"))
+    buttons.append(link("tell it it's good", "you are a good one"))
+
+    said_now = voice(s)[0]
 
     L = []
     a = L.append
-    a(f"# {s['name']} is alive because strangers keep it alive")
+    a(f"# Talk to {s['name']}")
     a("")
-    a("It gets hungry in real time, whether or not anyone is looking. "
-      "It never tells you what it needs — you have to read it. "
-      "Write to it and it does what you said, including when what you said is wrong.")
+    a(f'<img src="creature.gif?v={int(time.time())}" width="300" align="right" '
+      f'alt="{s["name"]}">')
     a("")
-    a(f'<img src="creature.gif?v={int(time.time())}" width="300" alt="{s["name"]}">')
+    a(f"### \u201c{said_now}\u201d")
     a("")
-    a("### Say something to it")
+    a("It is watching the screen and cycling through what's on its mind. "
+      "It never names what it wants — you have to work it out from what it says "
+      "and from the bars.")
     a("")
-    a(f"{new_issue('give it food', 'here, eat this')} · "
-      f"{new_issue('give it water', 'have some water')} · "
-      f"{new_issue('play with it', 'lets play')} · "
-      f"{new_issue('put it to bed', 'go to sleep')} · "
-      f"{new_issue('clean it', 'time for a bath')} · "
-      f"{new_issue('be kind to it', 'you are a good one')}")
+    a("**Answer it:**")
     a("")
-    a(f"Or [**write your own words**](https://github.com/{repo}/issues/new) — "
-      "put the sentence in the **title**, leave the body empty. It understands "
-      "English and Greek, and it answers everything.")
+    a("&nbsp;&nbsp;".join(buttons[:3]))
     a("")
-    a("### What it looks like right now")
+    a("&nbsp;&nbsp;".join(buttons[3:]))
     a("")
-    need = urgent(s)
-    a(f"> {s['name']} " + random.choice(SYMPTOMS[need]))
+    a(f"Or [**say your own thing**](https://github.com/{repo}/issues/new) \u2014 "
+      "the sentence goes in the **title**, the body can stay empty. "
+      "English or Greek. It answers everything, including things it doesn't "
+      "understand.")
     a("")
-    a("### The conversation so far")
+    a("<br clear=\"all\">")
+    a("")
+    a("## What you have said to each other")
     a("")
     if s["chat"]:
         for m in reversed(s["chat"]):
             if m["who"]:
-                a(f"**{m['who']}:** {m['said']}  ")
-                a(f"*{m['reply']}*")
+                a(f"**{m['who']}** \u2014 {m['said']}")
+                a("")
+                a(f"> {s['name']}: {m['reply']}")
             else:
-                a(f"*{m['reply']}*")
+                a(f"> {m['reply']}")
             a("")
     else:
-        a("*Nobody has said anything yet.*")
+        a("*Nothing yet. It is waiting.*")
         a("")
-    a(f"{len(s['carers'])} people have looked after this one.")
+    a(f"*{len(s['carers'])} people have talked to this one.*")
     a("")
     if s["graves"]:
-        a("### The ones before")
+        a("## The ones before")
         a("")
-        a("| Gen | Name | Lived | Died of | Carers |")
+        a("| Gen | Name | Lived | Died of | People |")
         a("|---:|---|---:|---|---:|")
         for g in s["graves"]:
             a(f"| {g['gen']} | {g['name']} | {g['hours']}h | {g['cause']} | {g['carers']} |")
@@ -592,13 +729,14 @@ def readme(s, repo):
     a("<details><summary>How it works</summary>")
     a("")
     a("Opening an issue runs a GitHub Action. It reads `state.json`, works out how "
-      "much time has passed since the last visitor and decays the creature by that "
-      "much, matches your words against a list of intents, applies the effect, "
-      "redraws the handheld, rewrites this page, then replies to your issue and "
-      "closes it. No server. The repository is the pet.")
+      "much time has passed since the last visitor and ages the creature by exactly "
+      "that much, matches your sentence against a list of intents, applies it, "
+      "redraws the handheld as an animated GIF, rewrites this page, then replies to "
+      "your issue and closes it. No server. The repository is the pet.")
     a("")
     a("Overfeeding hurts it. Medicine when it is well hurts it. Waking it hurts it. "
-      "The needs bars are the only honest information you get.")
+      "It gets hungry while you are asleep. If nobody comes for long enough it dies, "
+      "permanently, and an egg takes its place.")
     a("")
     a("</details>")
     a("")
