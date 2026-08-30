@@ -30,6 +30,14 @@ It replies to everything else as well, in its own way.
 
 **@JohnDemer** — *just now*
 
+> How are you
+
+**Gogo:** Gogo is content, and would like you to know it is not complaining.
+
+---
+
+**@JohnDemer** — *just now*
+
 > Hello
 
 **Gogo:** Gogo looks up. You are here. That is the news.
