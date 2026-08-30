@@ -1,14 +1,14 @@
 # Gogo
 
 ```
-     ____
-    /    \
-    \____/
+    /\_/\
+   ( ^   ^ )
+    >  w  <
 ```
 
-**Gogo:** “if i sit here, does that count as helping?”
+**Gogo:** “you came back. good.”
 
-*egg · gen 1 · 6 hours old · currently **content***
+*hatchling · gen 1 · 7 hours old · currently **content***
 
 ```
 food   █████████░  water  ████████░░
@@ -28,7 +28,15 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *just now*
+
+> Hello
+
+**Gogo:** Gogo looks up. You are here. That is the news.
+
+---
+
+**@JohnDemer** — *5h ago*
 
 > hi
 
@@ -36,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > see you
 
@@ -44,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > what are you
 
@@ -52,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > you are a good one
 
@@ -60,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > hug
 
@@ -68,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > clean
 
@@ -76,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > play
 
@@ -84,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > wake up
 
@@ -92,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4h ago*
+**@JohnDemer** — *6h ago*
 
 > rest
 
@@ -100,7 +108,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > it needs something?
 
@@ -108,7 +116,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > pushes it
 
@@ -116,7 +124,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > you are a good one
 
@@ -124,7 +132,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > πιες
 
@@ -132,7 +140,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > τάισε
 
@@ -140,7 +148,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > here, eat this
 
@@ -148,7 +156,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > here, eat this
 
@@ -156,7 +164,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > you are a good one
 
@@ -164,7 +172,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *6h ago*
 
 > hello
 
