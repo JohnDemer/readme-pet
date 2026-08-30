@@ -25,9 +25,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Pillow
-        run: pip install --quiet pillow
-
       - name: Live a little
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
@@ -39,7 +36,7 @@ jobs:
         run: |
           git config user.name "readme-pet"
           git config user.email "actions@github.com"
-          git add state.json creature.gif README.md
+          git add state.json README.md
           if git diff --staged --quiet; then exit 0; fi
           git commit -m "${{ github.event_name == 'issues' && github.event.issue.title || 'time passes' }}"
           for i in 1 2 3; do
