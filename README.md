@@ -6,7 +6,7 @@
     \____/
 ```
 
-**Gogo:** “i had a thought earlier. it was round.”
+**Gogo:** “you came back. good.”
 
 *egg · gen 1 · 1 hours old · currently **alright***
 
@@ -28,13 +28,21 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 **@JohnDemer** — *just now*
 
+> it needs something?
+
+**Gogo:** Gogo does not understand, but is doing a small pleased hum.
+
+---
+
+**@JohnDemer** — *just now*
+
 > pushes it
 
 **Gogo:** Gogo does not understand, but rolled over for no reason.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *2 min ago*
 
 > you are a good one
 
@@ -42,7 +50,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > πιες
 
@@ -50,7 +58,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > τάισε
 
@@ -58,7 +66,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > here, eat this
 
@@ -66,7 +74,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > here, eat this
 
@@ -74,7 +82,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > you are a good one
 
@@ -82,7 +90,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *20 min ago*
+**@JohnDemer** — *21 min ago*
 
 > hello
 
