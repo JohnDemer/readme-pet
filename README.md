@@ -6,7 +6,7 @@
     \____/
 ```
 
-**Gogo:** “if i sit here, does that count as helping?”
+**Gogo:** “i had a thought earlier. it was round.”
 
 *egg · gen 1 · 1 hours old · currently **alright***
 
@@ -28,13 +28,21 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 **@JohnDemer** — *just now*
 
+> pushes it
+
+**Gogo:** Gogo does not understand, but rolled over for no reason.
+
+---
+
+**@JohnDemer** — *just now*
+
 > you are a good one
 
 **Gogo:** Gogo leans its whole weight into your hand.
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > πιες
 
@@ -42,7 +50,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > τάισε
 
@@ -50,7 +58,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > here, eat this
 
@@ -58,7 +66,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > here, eat this
 
@@ -66,7 +74,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > you are a good one
 
@@ -74,7 +82,7 @@ It understands food, water, play, sleep, washing, kindness and medicine — in E
 
 ---
 
-**@JohnDemer** — *19 min ago*
+**@JohnDemer** — *20 min ago*
 
 > hello
 

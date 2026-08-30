@@ -2,13 +2,13 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788102448,
- "hunger": 98.64222222222224,
- "thirst": 99.03583333333333,
- "energy": 78.1518333333333,
- "clean": 64.4491666666667,
- "bond": 58,
- "health": 85.62,
+ "last": 1788102529,
+ "hunger": 98.59722222222224,
+ "thirst": 98.96833333333333,
+ "energy": 78.1113333333333,
+ "clean": 64.4154166666667,
+ "bond": 59,
+ "health": 85.6875,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -54,18 +54,24 @@
    "who": "@JohnDemer",
    "said": "you are a good one",
    "reply": "Gogo leans its whole weight into your hand."
+  },
+  {
+   "t": 1788102529,
+   "who": "@JohnDemer",
+   "said": "pushes it",
+   "reply": "Gogo does not understand, but rolled over for no reason."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788102448
+  "@JohnDemer": 1788102529
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "love",
+  "intent": "",
   "count": 1
  },
  "sulk_until": 0,
