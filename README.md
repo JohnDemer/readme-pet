@@ -6,7 +6,7 @@
     >  _  <
 ```
 
-**Gogo:** “( one foot is twitching )”
+**Gogo:** “( dreaming about the bowl )”
 
 *hatchling · gen 1 · 17 hours old · currently **asleep***
 
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Sleep
+
+**Gogo:** Gogo is already asleep. You are singing to a sleeping animal.
+
+---
 
 **@JohnDemer** — *just now*
 
