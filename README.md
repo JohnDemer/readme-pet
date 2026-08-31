@@ -6,12 +6,12 @@
     >  w  <
 ```
 
-**Gogo:** “i had a thought earlier. it was round.”
+**Gogo:** “you came back. good.”
 
 *hatchling · gen 1 · 17 hours old · currently **content***
 
 ```
-food   ██████████  water  █████░░░░░
+food   ██████████  water  █████████░
 rest   █████░░░░░  clean  ███████░░░
 health ██████████  bond   █████████░
 ```
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Water
+
+**Gogo:** Gogo drinks for a long time, then sneezes.
+
+---
 
 **@JohnDemer** — *just now*
 
