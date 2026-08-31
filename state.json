@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788161115,
- "hunger": 98.04944444444446,
- "thirst": 88.14666666666668,
- "energy": 49.57350000000001,
- "clean": 71.72500000000001,
+ "last": 1788177464,
+ "hunger": 88.96666666666668,
+ "thirst": 74.52250000000001,
+ "energy": 100,
+ "clean": 64.91291666666667,
  "bond": 95,
  "health": 100,
- "asleep": true,
+ "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "who": "@JohnDemer",
-   "said": "hello",
-   "reply": "Gogo does not understand, but seems fine, honestly.",
-   "t": 1788101291
-  },
   {
    "who": "@JohnDemer",
    "said": "you are a good one",
@@ -156,6 +150,12 @@
    "who": "@JohnDemer",
    "said": "Sleep",
    "reply": "Gogo is already asleep. You are singing to a sleeping animal."
+  },
+  {
+   "t": 1788177464,
+   "who": "",
+   "said": "",
+   "reply": "( nobody came. It woke up on its own while nobody was here. )"
   }
  ],
  "carers": [
