@@ -1,19 +1,19 @@
 # Gogo
 
 ```
-    /\_/\
-   ( ^   ^ )
-    >  w  <
+    /\_/\      z
+   ( _   _ )   z
+    >  _  <
 ```
 
-**Gogo:** “you came back. good.”
+**Gogo:** “( one foot is twitching )”
 
-*hatchling · gen 1 · 17 hours old · currently **content***
+*hatchling · gen 1 · 17 hours old · currently **asleep***
 
 ```
 food   ██████████  water  █████████░
 rest   █████░░░░░  clean  ███████░░░
-health ██████████  bond   █████████░
+health ██████████  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Sleep
+
+**Gogo:** Gogo curls into a shape with no clear front, and sleeps.
+
+---
 
 **@JohnDemer** — *just now*
 
