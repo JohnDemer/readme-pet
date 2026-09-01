@@ -8,12 +8,12 @@
 
 **Gogo:** “is there any of the wet thing left?”
 
-*child · gen 1 · 36 hours old · currently **thirsty***
+*child · gen 1 · 42 hours old · currently **thirsty***
 
 ```
-food   ██████░░░░  water  ███░░░░░░░
-rest   ███████░░░  clean  ████████░░
-health ██████████  bond   ██████████
+food   █████░░░░░  water  █░░░░░░░░░
+rest   ██████░░░░  clean  ███████░░░
+health █████████░  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -28,7 +28,15 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *12h ago*
+**@JohnDemer** — *just now*
+
+> Hello
+
+**Gogo:** Gogo knows you. That is the 11th time you have come.
+
+---
+
+**@JohnDemer** — *18h ago*
 
 > Clean
 
@@ -36,11 +44,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *14h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *20h ago*
 
 ---
 
-**@JohnDemer** — *18h ago*
+**@JohnDemer** — *25h ago*
 
 > Sleep
 
@@ -48,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *18h ago*
+**@JohnDemer** — *25h ago*
 
 > Sleep
 
@@ -56,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *18h ago*
+**@JohnDemer** — *25h ago*
 
 > Water
 
@@ -64,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *18h ago*
+**@JohnDemer** — *25h ago*
 
 > Food
 
@@ -72,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *28h ago*
+**@JohnDemer** — *35h ago*
 
 > How are you
 
@@ -80,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *28h ago*
+**@JohnDemer** — *35h ago*
 
 > Hello
 
@@ -88,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *34h ago*
+**@JohnDemer** — *40h ago*
 
 > hi
 
@@ -96,7 +104,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *34h ago*
+**@JohnDemer** — *41h ago*
 
 > see you
 
@@ -104,7 +112,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *34h ago*
+**@JohnDemer** — *41h ago*
 
 > what are you
 
@@ -112,7 +120,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *34h ago*
+**@JohnDemer** — *41h ago*
 
 > you are a good one
 
@@ -120,7 +128,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > hug
 
@@ -128,7 +136,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > clean
 
@@ -136,7 +144,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > play
 
@@ -144,7 +152,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > wake up
 
@@ -152,7 +160,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > rest
 
@@ -160,7 +168,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > it needs something?
 
@@ -168,7 +176,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > pushes it
 
@@ -176,7 +184,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > you are a good one
 
@@ -184,7 +192,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > πιες
 
@@ -192,7 +200,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > τάισε
 
@@ -200,19 +208,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > here, eat this
 
 **Gogo:** Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.
-
----
-
-**@JohnDemer** — *35h ago*
-
-> here, eat this
-
-**Gogo:** Gogo eats without breathing and looks up for more.
 
 ---
 

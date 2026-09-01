@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788228983,
- "hunger": 60.34500000000001,
- "thirst": 31.590000000000007,
- "energy": 74.24050000000001,
- "clean": 81.87833333333334,
- "bond": 95.09034722222222,
- "health": 100,
+ "last": 1788252148,
+ "hunger": 47.47555555555557,
+ "thirst": 12.28583333333334,
+ "energy": 62.658000000000015,
+ "clean": 72.22625000000001,
+ "bond": 95.48166666666667,
+ "health": 94.85222222222222,
  "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "who": "@JohnDemer",
-   "said": "here, eat this",
-   "reply": "Gogo eats without breathing and looks up for more.",
-   "t": 1788101291
-  },
   {
    "who": "@JohnDemer",
    "said": "here, eat this",
@@ -156,23 +150,29 @@
    "who": "@JohnDemer",
    "said": "Clean",
    "reply": "Gogo is washed. It will remember this."
+  },
+  {
+   "t": 1788252148,
+   "who": "@JohnDemer",
+   "said": "Hello",
+   "reply": "Gogo knows you. That is the 11th time you have come."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788185491
+  "@JohnDemer": 1788252148
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "clean",
+  "intent": "greet",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 10
+  "@JohnDemer": 11
  }
 }
