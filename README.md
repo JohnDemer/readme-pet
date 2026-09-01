@@ -6,13 +6,13 @@
     >  ~  <
 ```
 
-**Gogo:** “is there any of the wet thing left?”
+**Gogo:** “i keep thinking about the bowl that shines.”
 
-*child · gen 1 · 44 hours old · currently **thirsty***
+*child · gen 1 · 49 hours old · currently **thirsty***
 
 ```
-food   ████████░░  water  ████░░░░░░
-rest   ██████░░░░  clean  ███████░░░
+food   ███████░░░  water  ███░░░░░░░
+rest   █████░░░░░  clean  ██████░░░░
 health █████████░  bond   ██████████
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *1h ago*
+**@JohnDemer** — *6h ago*
 
 > Food
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *1h ago*
+**@JohnDemer** — *6h ago*
 
 > Drink
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *1h ago*
+**@JohnDemer** — *6h ago*
 
 > Hello
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *20h ago*
+**@JohnDemer** — *25h ago*
 
 > Clean
 
@@ -60,11 +60,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *22h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *27h ago*
 
 ---
 
-**@JohnDemer** — *27h ago*
+**@JohnDemer** — *32h ago*
 
 > Sleep
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *27h ago*
+**@JohnDemer** — *32h ago*
 
 > Sleep
 
@@ -80,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *27h ago*
+**@JohnDemer** — *32h ago*
 
 > Water
 
@@ -88,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *27h ago*
+**@JohnDemer** — *32h ago*
 
 > Food
 
@@ -96,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *36h ago*
+**@JohnDemer** — *41h ago*
 
 > How are you
 
@@ -104,7 +104,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *36h ago*
+**@JohnDemer** — *41h ago*
 
 > Hello
 
@@ -112,7 +112,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *42h ago*
+**@JohnDemer** — *47h ago*
 
 > hi
 
@@ -120,7 +120,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > see you
 
@@ -128,7 +128,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > what are you
 
@@ -136,7 +136,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > you are a good one
 
@@ -144,7 +144,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > hug
 
@@ -152,7 +152,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > clean
 
@@ -160,7 +160,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > play
 
@@ -168,7 +168,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > wake up
 
@@ -176,7 +176,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > rest
 
@@ -184,7 +184,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > it needs something?
 
@@ -192,7 +192,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > pushes it
 
@@ -200,7 +200,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > you are a good one
 
@@ -208,7 +208,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > πιες
 
