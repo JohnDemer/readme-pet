@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788252148,
- "hunger": 47.47555555555557,
- "thirst": 12.28583333333334,
- "energy": 62.658000000000015,
- "clean": 72.22625000000001,
- "bond": 95.48166666666667,
- "health": 94.85222222222222,
+ "last": 1788252169,
+ "hunger": 47.46388888888891,
+ "thirst": 50.26833333333334,
+ "energy": 62.647500000000015,
+ "clean": 72.2175,
+ "bond": 97.48166666666667,
+ "health": 94.84755555555556,
  "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "who": "@JohnDemer",
-   "said": "here, eat this",
-   "reply": "Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.",
-   "t": 1788101291
-  },
   {
    "who": "@JohnDemer",
    "said": "\u03c4\u03ac\u03b9\u03c3\u03b5",
@@ -156,23 +150,29 @@
    "who": "@JohnDemer",
    "said": "Hello",
    "reply": "Gogo knows you. That is the 11th time you have come."
+  },
+  {
+   "t": 1788252169,
+   "who": "@JohnDemer",
+   "said": "Drink",
+   "reply": "Gogo drinks for a long time, then sneezes."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788252148
+  "@JohnDemer": 1788252169
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "greet",
+  "intent": "water",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 11
+  "@JohnDemer": 12
  }
 }

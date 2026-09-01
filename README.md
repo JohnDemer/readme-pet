@@ -2,16 +2,16 @@
 
 ```
     /\_/\
-   ( -   - )
-    >  ~  <
+   ( ^   ^ )
+    >  w  <
 ```
 
-**Gogo:** “is there any of the wet thing left?”
+**Gogo:** “if i sit here, does that count as helping?”
 
-*child · gen 1 · 42 hours old · currently **thirsty***
+*child · gen 1 · 42 hours old · currently **content***
 
 ```
-food   █████░░░░░  water  █░░░░░░░░░
+food   █████░░░░░  water  █████░░░░░
 rest   ██████░░░░  clean  ███████░░░
 health █████████░  bond   ██████████
 ```
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Drink
+
+**Gogo:** Gogo drinks for a long time, then sneezes.
+
+---
 
 **@JohnDemer** — *just now*
 
@@ -203,14 +211,6 @@ It replies to everything else as well, in its own way.
 **@JohnDemer** — *41h ago*
 
 > τάισε
-
-**Gogo:** Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.
-
----
-
-**@JohnDemer** — *41h ago*
-
-> here, eat this
 
 **Gogo:** Gogo eats it because you offered. Then eats it again, in reverse, onto the floor. It did not need food.
 
