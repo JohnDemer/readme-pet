@@ -6,14 +6,14 @@
     >  _  <
 ```
 
-**Gogo:** “zzz”
+**Gogo:** “( dreaming about the bowl )”
 
-*child · gen 1 · 75 hours old · currently **asleep***
+*child · gen 1 · 78 hours old · currently **asleep***
 
 ```
-food   ██████████  water  ████████░░
-rest   ░░░░░░░░░░  clean  ██████████
-health ██████░░░░  bond   ██████████
+food   █████████░  water  ███████░░░
+rest   ████░░░░░░  clean  █████████░
+health ███████░░░  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Sleep
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Clean
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Food
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Food
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Water
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *1 min ago*
+**@JohnDemer** — *3h ago*
 
 > Water
 
@@ -76,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2 min ago*
+**@JohnDemer** — *3h ago*
 
 > Food
 
@@ -84,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *35h ago*
 
 > Food
 
@@ -92,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *35h ago*
 
 > Drink
 
@@ -100,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *35h ago*
 
 > Hello
 
