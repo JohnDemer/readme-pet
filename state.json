@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788367827,
- "hunger": 79.20944444444447,
- "thirst": 75.955,
- "energy": 4.818500000000017,
- "clean": 12.02666666666667,
+ "last": 1788367840,
+ "hunger": 100,
+ "thirst": 75.94416666666666,
+ "energy": 4.812000000000017,
+ "clean": 8.021250000000004,
  "bond": 100,
- "health": 56.92350000000001,
+ "health": 56.93433333333334,
  "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "t": 1788102606,
-   "who": "@JohnDemer",
-   "said": "rest",
-   "reply": "Gogo curls into a shape with no clear front, and sleeps."
-  },
   {
    "t": 1788102700,
    "who": "@JohnDemer",
@@ -156,23 +150,29 @@
    "who": "@JohnDemer",
    "said": "Food",
    "reply": "Gogo eats it in one motion and then pretends nothing happened."
+  },
+  {
+   "t": 1788367840,
+   "who": "@JohnDemer",
+   "said": "Food",
+   "reply": "Gogo eats, then checks the floor in case the floor also has some."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788367827
+  "@JohnDemer": 1788367840
  },
  "graves": [],
  "mood": "dance",
  "streak": {
   "intent": "feed",
-  "count": 1
+  "count": 2
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 17
+  "@JohnDemer": 18
  }
 }

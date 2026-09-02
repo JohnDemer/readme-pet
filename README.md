@@ -11,7 +11,7 @@
 *child · gen 1 · 75 hours old · currently **exhausted***
 
 ```
-food   ████████░░  water  ████████░░
+food   ██████████  water  ████████░░
 rest   ░░░░░░░░░░  clean  █░░░░░░░░░
 health ██████░░░░  bond   ██████████
 ```
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Food
+
+**Gogo:** Gogo eats, then checks the floor in case the floor also has some.
+
+---
 
 **@JohnDemer** — *just now*
 
@@ -52,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *1 min ago*
 
 > Food
 
@@ -205,14 +213,6 @@ It replies to everything else as well, in its own way.
 > wake up
 
 **Gogo:** Gogo does not understand, but rolled over for no reason.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> rest
-
-**Gogo:** Gogo curls into a shape with no clear front, and sleeps.
 
 ---
 
