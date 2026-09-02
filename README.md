@@ -3,15 +3,15 @@
 ```
     /\_/\
    ( -   - )
-    >  ~  <
+    >  z  <
 ```
 
-**Gogo:** “my mouth is a cupboard.”
+**Gogo:** “my eyes keep closing without me.”
 
-*child · gen 1 · 75 hours old · currently **thirsty***
+*child · gen 1 · 75 hours old · currently **exhausted***
 
 ```
-food   █████░░░░░  water  ░░░░░░░░░░
+food   █████░░░░░  water  ████░░░░░░
 rest   ░░░░░░░░░░  clean  ██░░░░░░░░
 health ██████░░░░  bond   ██████████
 ```
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Water
+
+**Gogo:** Gogo drinks for a long time, then sneezes.
+
+---
 
 **@JohnDemer** — *just now*
 
@@ -205,14 +213,6 @@ It replies to everything else as well, in its own way.
 > pushes it
 
 **Gogo:** Gogo does not understand, but rolled over for no reason.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> you are a good one
-
-**Gogo:** Gogo leans its whole weight into your hand.
 
 ---
 
