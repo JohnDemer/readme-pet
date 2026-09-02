@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788367852,
- "hunger": 99.99333333333334,
- "thirst": 75.93416666666666,
- "energy": 4.806000000000017,
- "clean": 100,
+ "last": 1788367876,
+ "hunger": 99.98,
+ "thirst": 75.91416666666666,
+ "energy": 4.794000000000017,
+ "clean": 99.99,
  "bond": 100,
- "health": 56.94433333333334,
- "asleep": false,
+ "health": 56.96433333333334,
+ "asleep": true,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "t": 1788102773,
-   "who": "@JohnDemer",
-   "said": "play",
-   "reply": "You woke Gogo up. It is not delighted about it."
-  },
   {
    "t": 1788102855,
    "who": "@JohnDemer",
@@ -156,23 +150,29 @@
    "who": "@JohnDemer",
    "said": "Clean",
    "reply": "Gogo shakes once and redistributes the water onto you."
+  },
+  {
+   "t": 1788367876,
+   "who": "@JohnDemer",
+   "said": "Sleep",
+   "reply": "Gogo sleeps with one eye slightly open, which is worse."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788367852
+  "@JohnDemer": 1788367876
  },
  "graves": [],
  "mood": "dance",
  "streak": {
-  "intent": "clean",
+  "intent": "sleep",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 19
+  "@JohnDemer": 20
  }
 }

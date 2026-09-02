@@ -1,14 +1,14 @@
 # Gogo
 
 ```
-    /\_/\
-   ( -   - )
-    >  z  <
+    /\_/\      z
+   ( _   _ )   z
+    >  _  <
 ```
 
-**Gogo:** “my eyes keep closing without me.”
+**Gogo:** “zzz”
 
-*child · gen 1 · 75 hours old · currently **exhausted***
+*child · gen 1 · 75 hours old · currently **asleep***
 
 ```
 food   ██████████  water  ████████░░
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Sleep
+
+**Gogo:** Gogo sleeps with one eye slightly open, which is worse.
+
+---
 
 **@JohnDemer** — *just now*
 
@@ -60,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *1 min ago*
 
 > Water
 
@@ -68,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *1 min ago*
+**@JohnDemer** — *2 min ago*
 
 > Food
 
@@ -205,14 +213,6 @@ It replies to everything else as well, in its own way.
 > clean
 
 **Gogo:** Gogo hates every second of this and is furious and clean.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> play
-
-**Gogo:** You woke Gogo up. It is not delighted about it.
 
 ---
 
