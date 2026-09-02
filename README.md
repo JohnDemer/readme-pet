@@ -12,7 +12,7 @@
 
 ```
 food   ██████████  water  ████████░░
-rest   ░░░░░░░░░░  clean  █░░░░░░░░░
+rest   ░░░░░░░░░░  clean  ██████████
 health ██████░░░░  bond   ██████████
 ```
 
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Clean
+
+**Gogo:** Gogo shakes once and redistributes the water onto you.
+
+---
 
 **@JohnDemer** — *just now*
 
@@ -205,14 +213,6 @@ It replies to everything else as well, in its own way.
 > play
 
 **Gogo:** You woke Gogo up. It is not delighted about it.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> wake up
-
-**Gogo:** Gogo does not understand, but rolled over for no reason.
 
 ---
 
