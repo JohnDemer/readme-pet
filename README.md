@@ -6,13 +6,13 @@
     >  ~  <
 ```
 
-**Gogo:** “i keep thinking about the bowl that shines.”
+**Gogo:** “my mouth is a cupboard.”
 
-*child · gen 1 · 73 hours old · currently **thirsty***
+*child · gen 1 · 75 hours old · currently **thirsty***
 
 ```
-food   ██░░░░░░░░  water  ░░░░░░░░░░
-rest   █░░░░░░░░░  clean  ██░░░░░░░░
+food   █████░░░░░  water  ░░░░░░░░░░
+rest   ░░░░░░░░░░  clean  ██░░░░░░░░
 health ██████░░░░  bond   ██████████
 ```
 
@@ -28,7 +28,15 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *30h ago*
+**@JohnDemer** — *just now*
+
+> Food
+
+**Gogo:** Gogo inhales it. There is no chewing. There was never chewing.
+
+---
+
+**@JohnDemer** — *32h ago*
 
 > Food
 
@@ -36,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *30h ago*
+**@JohnDemer** — *32h ago*
 
 > Drink
 
@@ -44,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *30h ago*
+**@JohnDemer** — *32h ago*
 
 > Hello
 
@@ -112,7 +120,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > hi
 
@@ -120,7 +128,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > see you
 
@@ -128,7 +136,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > what are you
 
@@ -205,14 +213,6 @@ It replies to everything else as well, in its own way.
 > you are a good one
 
 **Gogo:** Gogo leans its whole weight into your hand.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> πιες
-
-**Gogo:** Gogo drinks for a long time, then sneezes.
 
 ---
 

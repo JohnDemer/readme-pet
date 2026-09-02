@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788362785,
- "hunger": 18.01055555555557,
+ "last": 1788367746,
+ "hunger": 47.25444444444446,
  "thirst": 0,
- "energy": 7.339500000000017,
- "clean": 22.127500000000005,
- "bond": 97.89819444444444,
- "health": 59.96572222222223,
+ "energy": 4.859000000000017,
+ "clean": 16.060416666666672,
+ "bond": 100,
+ "health": 56.93400000000001,
  "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
-  {
-   "who": "@JohnDemer",
-   "said": "\u03c0\u03b9\u03b5\u03c2",
-   "reply": "Gogo drinks for a long time, then sneezes.",
-   "t": 1788101291
-  },
   {
    "t": 1788102448,
    "who": "@JohnDemer",
@@ -156,23 +150,29 @@
    "who": "@JohnDemer",
    "said": "Food",
    "reply": "Gogo eats without breathing and looks up for more."
+  },
+  {
+   "t": 1788367746,
+   "who": "@JohnDemer",
+   "said": "Food",
+   "reply": "Gogo inhales it. There is no chewing. There was never chewing."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788252204
+  "@JohnDemer": 1788367746
  },
  "graves": [],
  "mood": "dance",
  "streak": {
   "intent": "feed",
-  "count": 1
+  "count": 2
  },
  "sulk_until": 0,
  "thread": 21,
  "seen": {
-  "@JohnDemer": 13
+  "@JohnDemer": 14
  }
 }
