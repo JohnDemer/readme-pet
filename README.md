@@ -2,16 +2,16 @@
 
 ```
     /\_/\
-   ( -   - )
-    >  ~  <
+   ( ^   ^ )
+    >  w  <
 ```
 
-**Gogo:** “i keep thinking about the bowl that shines.”
+**Gogo:** “what is outside? is it the same outside?”
 
-*child · gen 1 · 92 hours old · currently **thirsty***
+*child · gen 1 · 94 hours old · currently **content***
 
 ```
-food   ███████░░░  water  ██░░░░░░░░
+food   ██████░░░░  water  ██████░░░░
 rest   ████████░░  clean  ███████░░░
 health ███████░░░  bond   ██████████
 ```
@@ -28,11 +28,19 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It woke up on its own while nobody was here. )* — *8h ago*
+**@JohnDemer** — *just now*
+
+> Drink
+
+**Gogo:** Gogo drinks with its whole face and comes back wet.
 
 ---
 
-**@JohnDemer** — *17h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *10h ago*
+
+---
+
+**@JohnDemer** — *19h ago*
 
 > Sleep
 
@@ -40,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Clean
 
@@ -48,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Food
 
@@ -56,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Food
 
@@ -64,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Water
 
@@ -72,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Water
 
@@ -80,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *17h ago*
+**@JohnDemer** — *19h ago*
 
 > Food
 
@@ -120,7 +128,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *2d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *3d ago*
 
 ---
 
@@ -199,14 +207,6 @@ It replies to everything else as well, in its own way.
 **@JohnDemer** — *3d ago*
 
 > you are a good one
-
-**Gogo:** Gogo leans its whole weight into your hand.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> hug
 
 **Gogo:** Gogo leans its whole weight into your hand.
 
