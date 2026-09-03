@@ -6,12 +6,12 @@
     >  w  <
 ```
 
-**Gogo:** “what is outside? is it the same outside?”
+**Gogo:** “i had a thought earlier. it was round.”
 
-*child · gen 1 · 94 hours old · currently **content***
+*child · gen 1 · 97 hours old · currently **content***
 
 ```
-food   ██████░░░░  water  ██████░░░░
+food   ██████░░░░  water  █████░░░░░
 rest   ████████░░  clean  ███████░░░
 health ███████░░░  bond   ██████████
 ```
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > Drink
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *10h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *13h ago*
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Sleep
 
@@ -48,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Clean
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Food
 
@@ -64,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Food
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Water
 
@@ -80,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Water
 
@@ -88,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *22h ago*
 
 > Food
 
@@ -120,7 +120,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Clean
 
