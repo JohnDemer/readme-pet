@@ -1,18 +1,18 @@
 # Gogo
 
 ```
-    /\_/\      z
-   ( _   _ )   z
-    >  _  <
+    /\_/\
+   ( ^   ^ )
+    >  w  <
 ```
 
-**Gogo:** “( dreaming about the bowl )”
+**Gogo:** “today is one of the better ones.”
 
-*child · gen 1 · 78 hours old · currently **asleep***
+*child · gen 1 · 83 hours old · currently **content***
 
 ```
-food   █████████░  water  ███████░░░
-rest   ████░░░░░░  clean  █████████░
+food   ████████░░  water  █████░░░░░
+rest   ██████████  clean  █████████░
 health ███████░░░  bond   ██████████
 ```
 
@@ -28,7 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *3h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *just now*
+
+---
+
+**@JohnDemer** — *8h ago*
 
 > Sleep
 
@@ -36,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Clean
 
@@ -44,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Food
 
@@ -52,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Food
 
@@ -60,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Water
 
@@ -68,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Water
 
@@ -76,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Food
 
@@ -84,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *40h ago*
 
 > Food
 
@@ -92,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > Drink
 
@@ -100,7 +104,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *35h ago*
+**@JohnDemer** — *41h ago*
 
 > Hello
 
@@ -152,7 +156,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > How are you
 
@@ -160,7 +164,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Hello
 
@@ -205,14 +209,6 @@ It replies to everything else as well, in its own way.
 > hug
 
 **Gogo:** Gogo leans its whole weight into your hand.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> clean
-
-**Gogo:** Gogo hates every second of this and is furious and clean.
 
 ---
 
