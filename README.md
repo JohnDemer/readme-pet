@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Gogo:** “is this what old is?”
+**Gogo:** “i do not want to stand up today.”
 
-*child · gen 1 · 116 hours old · currently **unwell***
+*adult · gen 1 · 121 hours old · currently **unwell***
 
 ```
-food   ██░░░░░░░░  water  ░░░░░░░░░░
-rest   ████░░░░░░  clean  ████░░░░░░
-health ████░░░░░░  bond   ██████████
+food   █░░░░░░░░░  water  ░░░░░░░░░░
+rest   ███░░░░░░░  clean  ███░░░░░░░
+health ███░░░░░░░  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *21h ago*
+**@JohnDemer** — *27h ago*
 
 > Drink
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *32h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *37h ago*
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Sleep
 
@@ -48,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Clean
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Food
 
@@ -64,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Food
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Water
 
@@ -80,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Water
 
@@ -88,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *41h ago*
+**@JohnDemer** — *46h ago*
 
 > Food
 
@@ -120,7 +120,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Clean
 
@@ -128,7 +128,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *3d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *4d ago*
 
 ---
 
