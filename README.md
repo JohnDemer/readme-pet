@@ -2,18 +2,18 @@
 
 ```
     /\_/\
-   ( -   - )
+   ( @   @ )
     >  ~  <
 ```
 
-**Gogo:** “my mouth is a cupboard.”
+**Gogo:** “is this what old is?”
 
-*child · gen 1 · 107 hours old · currently **thirsty***
+*child · gen 1 · 116 hours old · currently **unwell***
 
 ```
-food   ███░░░░░░░  water  ██░░░░░░░░
-rest   ██████░░░░  clean  █████░░░░░
-health ██████░░░░  bond   ██████████
+food   ██░░░░░░░░  water  ░░░░░░░░░░
+rest   ████░░░░░░  clean  ████░░░░░░
+health ████░░░░░░  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *13h ago*
+**@JohnDemer** — *21h ago*
 
 > Drink
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *23h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *32h ago*
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Sleep
 
@@ -48,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Clean
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Food
 
@@ -64,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Food
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Water
 
@@ -80,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Water
 
@@ -88,7 +88,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *32h ago*
+**@JohnDemer** — *41h ago*
 
 > Food
 
@@ -96,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Food
 
@@ -104,7 +104,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Drink
 
@@ -112,7 +112,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Hello
 
@@ -132,7 +132,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Sleep
 
@@ -140,7 +140,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Sleep
 
@@ -148,7 +148,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Water
 
@@ -156,7 +156,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Food
 
