@@ -6,14 +6,14 @@
     \____/
 ```
 
-**Koukou:** “if i sit here, does that count as helping?”
+**Koukou:** “today is one of the better ones.”
 
 *egg · gen 2 · 0 hours old · currently **alright***
 
 ```
 food   ███████░░░  water  ███████░░░
 rest   ████████░░  clean  █████████░
-health ██████████  bond   ████░░░░░░
+health ██████████  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Hug
+
+**Koukou:** Koukou bumps its head against you until you continue.
+
+---
 
 *Gogo is gone. An egg was already waiting. This one is Koukou.* — *just now*
 
@@ -72,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*0 people have talked to this one.*
+*1 people have talked to this one.*
 
 ## The ones before
 

@@ -2,12 +2,12 @@
  "gen": 2,
  "name": "Koukou",
  "born": 1788639008,
- "last": 1788639008,
- "hunger": 70,
- "thirst": 70,
- "energy": 80,
- "clean": 90,
- "bond": 40,
+ "last": 1788639095,
+ "hunger": 69.95166666666667,
+ "thirst": 69.9275,
+ "energy": 79.9565,
+ "clean": 89.96375,
+ "bond": 51,
  "health": 100,
  "asleep": false,
  "dead": false,
@@ -54,10 +54,20 @@
    "who": "",
    "said": "",
    "reply": "Gogo is gone. An egg was already waiting. This one is Koukou."
+  },
+  {
+   "t": 1788639095,
+   "who": "@JohnDemer",
+   "said": "Hug",
+   "reply": "Koukou bumps its head against you until you continue."
   }
  ],
- "carers": [],
- "cooldown": {},
+ "carers": [
+  "@JohnDemer"
+ ],
+ "cooldown": {
+  "@JohnDemer": 1788639095
+ },
  "graves": [
   {
    "gen": 1,
@@ -69,10 +79,12 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "",
-  "count": 0
+  "intent": "love",
+  "count": 1
  },
  "sulk_until": 0,
- "thread": 0,
- "seen": {}
+ "thread": 1,
+ "seen": {
+  "@JohnDemer": 1
+ }
 }
