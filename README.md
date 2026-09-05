@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Gogo:** “the room is doing a slow circle.”
+**Gogo:** “i feel wrong in the middle.”
 
-*adult · gen 1 · 126 hours old · currently **unwell***
+*adult · gen 1 · 131 hours old · currently **unwell***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ██░░░░░░░░  clean  ██░░░░░░░░
-health ██░░░░░░░░  bond   ██████████
+rest   █░░░░░░░░░  clean  █░░░░░░░░░
+health ░░░░░░░░░░  bond   ██████████
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *31h ago*
+**@JohnDemer** — *37h ago*
 
 > Drink
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *42h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *47h ago*
 
 ---
 
@@ -164,7 +164,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > How are you
 
@@ -172,7 +172,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Hello
 
