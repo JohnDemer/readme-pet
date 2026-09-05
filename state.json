@@ -2,23 +2,17 @@
  "gen": 1,
  "name": "Gogo",
  "born": 1788099188,
- "last": 1788572294,
+ "last": 1788600746,
  "hunger": 0,
  "thirst": 0,
- "energy": 13.746,
- "clean": 14.815833333333321,
- "bond": 97.76659722222223,
- "health": 1.9961111111111371,
+ "energy": 0,
+ "clean": 2.960833333333321,
+ "bond": 95.7907638888889,
+ "health": 0,
  "asleep": false,
- "dead": false,
- "cause": "",
+ "dead": true,
+ "cause": "neglect",
  "chat": [
-  {
-   "t": 1788103375,
-   "who": "@JohnDemer",
-   "said": "you are a good one",
-   "reply": "Gogo leans its whole weight into your hand."
-  },
   {
    "t": 1788103677,
    "who": "@JohnDemer",
@@ -156,6 +150,12 @@
    "who": "@JohnDemer",
    "said": "Drink",
    "reply": "Gogo drinks with its whole face and comes back wet."
+  },
+  {
+   "t": 1788600746,
+   "who": "",
+   "said": "",
+   "reply": "( nobody came. It did not make it. )"
   }
  ],
  "carers": [
@@ -164,7 +164,15 @@
  "cooldown": {
   "@JohnDemer": 1788437513
  },
- "graves": [],
+ "graves": [
+  {
+   "gen": 1,
+   "name": "Gogo",
+   "hours": 139.3,
+   "cause": "neglect",
+   "carers": 1
+  }
+ ],
  "mood": "dance",
  "streak": {
   "intent": "water",

@@ -2,17 +2,17 @@
 
 ```
     /\_/\
-   ( @   @ )
-    >  ~  <
+   ( x   x )
+    >  _  <
 ```
 
-**Gogo:** “i feel wrong in the middle.”
+**Gogo:** “( the screen is quiet now )”
 
-*adult · gen 1 · 131 hours old · currently **unwell***
+*gone · gen 1 · 139 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   █░░░░░░░░░  clean  █░░░░░░░░░
+rest   ░░░░░░░░░░  clean  ░░░░░░░░░░
 health ░░░░░░░░░░  bond   ██████████
 ```
 
@@ -28,7 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *37h ago*
+*( nobody came. It did not make it. )* — *just now*
+
+---
+
+**@JohnDemer** — *45h ago*
 
 > Drink
 
@@ -36,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *47h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *2d ago*
 
 ---
 
@@ -96,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Food
 
@@ -104,7 +108,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Drink
 
@@ -112,7 +116,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Hello
 
@@ -132,7 +136,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Sleep
 
@@ -140,7 +144,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Sleep
 
@@ -148,7 +152,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Water
 
@@ -156,7 +160,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Food
 
@@ -204,15 +208,13 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
-
-> you are a good one
-
-**Gogo:** Gogo leans its whole weight into your hand.
-
----
-
 *1 people have talked to this one.*
+
+## The ones before
+
+| Gen | Name | Lived | Died of | People |
+|---:|---|---:|---|---:|
+| 1 | Gogo | 139.3h | neglect | 1 |
 
 <details><summary>How it works</summary>
 
