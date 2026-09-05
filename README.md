@@ -8,7 +8,7 @@
 
 **Gogo:** “( the screen is quiet now )”
 
-*gone · gen 1 · 144 hours old · currently **gone***
+*gone · gen 1 · 149 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *4h ago*
+*( nobody came. It did not make it. )* — *10h ago*
 
 ---
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Sleep
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Clean
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Food
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Food
 
@@ -76,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Water
 
@@ -84,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Water
 
@@ -92,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Food
 
@@ -124,7 +124,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Clean
 
@@ -184,7 +184,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > hi
 
@@ -192,7 +192,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > see you
 
@@ -200,7 +200,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > what are you
 
