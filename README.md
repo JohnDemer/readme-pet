@@ -8,7 +8,7 @@
 
 **Gogo:** “( the screen is quiet now )”
 
-*gone · gen 1 · 139 hours old · currently **gone***
+*gone · gen 1 · 144 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -28,11 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *just now*
+*( nobody came. It did not make it. )* — *4h ago*
 
 ---
 
-**@JohnDemer** — *45h ago*
+**@JohnDemer** — *2d ago*
 
 > Drink
 
@@ -132,7 +132,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *4d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *5d ago*
 
 ---
 
