@@ -1,24 +1,24 @@
-# Gogo
+# Koukou
 
 ```
-    /\_/\
-   ( x   x )
-    >  _  <
+     ____
+    /    \
+    \____/
 ```
 
-**Gogo:** “( the screen is quiet now )”
+**Koukou:** “if i sit here, does that count as helping?”
 
-*gone · gen 1 · 149 hours old · currently **gone***
+*egg · gen 2 · 0 hours old · currently **alright***
 
 ```
-food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ░░░░░░░░░░  clean  ░░░░░░░░░░
-health ░░░░░░░░░░  bond   ██████████
+food   ███████░░░  water  ███████░░░
+rest   ████████░░  clean  █████████░
+health ██████████  bond   ████░░░░░░
 ```
 
-## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/21)
+## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
 
-That opens the one thread everybody uses. Type a message in the box at the bottom, press Comment, and Gogo answers you underneath within about half a minute. No titles, no forms, nothing to fill in.
+That opens the one thread everybody uses. Type a message in the box at the bottom, press Comment, and Koukou answers you underneath within about half a minute. No titles, no forms, nothing to fill in.
 
 It understands quite a lot, in English or Greek: **food, sweets, water, play, walks, sleep, washing, kindness, songs, medicine** — and it answers questions too. Try *how are you*, *what do you want*, *what is your name*, or tell it **your name is …** and it will take the name.
 
@@ -28,6 +28,10 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *just now*
+
+---
+
 *( nobody came. It did not make it. )* — *10h ago*
 
 ---
@@ -36,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 > Drink
 
-**Gogo:** Gogo drinks with its whole face and comes back wet.
+**Koukou:** Gogo drinks with its whole face and comes back wet.
 
 ---
 
@@ -48,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 > Sleep
 
-**Gogo:** Gogo sleeps with one eye slightly open, which is worse.
+**Koukou:** Gogo sleeps with one eye slightly open, which is worse.
 
 ---
 
@@ -56,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 > Clean
 
-**Gogo:** Gogo shakes once and redistributes the water onto you.
+**Koukou:** Gogo shakes once and redistributes the water onto you.
 
 ---
 
@@ -64,151 +68,11 @@ It replies to everything else as well, in its own way.
 
 > Food
 
-**Gogo:** Gogo eats, then checks the floor in case the floor also has some.
+**Koukou:** Gogo eats, then checks the floor in case the floor also has some.
 
 ---
 
-**@JohnDemer** — *3d ago*
-
-> Food
-
-**Gogo:** Gogo eats it in one motion and then pretends nothing happened.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> Water
-
-**Gogo:** Gogo drinks half and stands in the rest.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> Water
-
-**Gogo:** Gogo drinks for a long time, then sneezes.
-
----
-
-**@JohnDemer** — *3d ago*
-
-> Food
-
-**Gogo:** Gogo inhales it. There is no chewing. There was never chewing.
-
----
-
-**@JohnDemer** — *4d ago*
-
-> Food
-
-**Gogo:** Gogo eats without breathing and looks up for more.
-
----
-
-**@JohnDemer** — *4d ago*
-
-> Drink
-
-**Gogo:** Gogo drinks for a long time, then sneezes.
-
----
-
-**@JohnDemer** — *4d ago*
-
-> Hello
-
-**Gogo:** Gogo knows you. That is the 11th time you have come.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Clean
-
-**Gogo:** Gogo is washed. It will remember this.
-
----
-
-*( nobody came. It woke up on its own while nobody was here. )* — *5d ago*
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Sleep
-
-**Gogo:** Gogo is already asleep. You are singing to a sleeping animal.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Sleep
-
-**Gogo:** Gogo curls into a shape with no clear front, and sleeps.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Water
-
-**Gogo:** Gogo drinks for a long time, then sneezes.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Food
-
-**Gogo:** Gogo eats, then checks the floor in case the floor also has some.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> How are you
-
-**Gogo:** Gogo is content, and would like you to know it is not complaining.
-
----
-
-**@JohnDemer** — *5d ago*
-
-> Hello
-
-**Gogo:** Gogo looks up. You are here. That is the news.
-
----
-
-**@JohnDemer** — *6d ago*
-
-> hi
-
-**Gogo:** Gogo greets you by putting its head under your hand.
-
----
-
-**@JohnDemer** — *6d ago*
-
-> see you
-
-**Gogo:** Gogo sits down where you were standing.
-
----
-
-**@JohnDemer** — *6d ago*
-
-> what are you
-
-**Gogo:** Gogo. Generation 1, 1 hours old, currently egg. It did not choose the name.
-
----
-
-*1 people have talked to this one.*
+*0 people have talked to this one.*
 
 ## The ones before
 

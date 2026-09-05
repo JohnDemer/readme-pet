@@ -1,126 +1,18 @@
 {
- "gen": 1,
- "name": "Gogo",
- "born": 1788099188,
- "last": 1788637066,
- "hunger": 0,
- "thirst": 0,
- "energy": 0,
- "clean": 2.960833333333321,
- "bond": 95.7907638888889,
- "health": 0,
+ "gen": 2,
+ "name": "Koukou",
+ "born": 1788639008,
+ "last": 1788639008,
+ "hunger": 70,
+ "thirst": 70,
+ "energy": 80,
+ "clean": 90,
+ "bond": 40,
+ "health": 100,
  "asleep": false,
- "dead": true,
- "cause": "neglect",
+ "dead": false,
+ "cause": "",
  "chat": [
-  {
-   "t": 1788103677,
-   "who": "@JohnDemer",
-   "said": "what are you",
-   "reply": "Gogo. Generation 1, 1 hours old, currently egg. It did not choose the name."
-  },
-  {
-   "t": 1788103753,
-   "who": "@JohnDemer",
-   "said": "see you",
-   "reply": "Gogo sits down where you were standing."
-  },
-  {
-   "t": 1788104818,
-   "who": "@JohnDemer",
-   "said": "hi",
-   "reply": "Gogo greets you by putting its head under your hand."
-  },
-  {
-   "t": 1788126021,
-   "who": "@JohnDemer",
-   "said": "Hello",
-   "reply": "Gogo looks up. You are here. That is the news."
-  },
-  {
-   "t": 1788126060,
-   "who": "@JohnDemer",
-   "said": "How are you",
-   "reply": "Gogo is content, and would like you to know it is not complaining."
-  },
-  {
-   "t": 1788161032,
-   "who": "@JohnDemer",
-   "said": "Food",
-   "reply": "Gogo eats, then checks the floor in case the floor also has some."
-  },
-  {
-   "t": 1788161068,
-   "who": "@JohnDemer",
-   "said": "Water",
-   "reply": "Gogo drinks for a long time, then sneezes."
-  },
-  {
-   "t": 1788161085,
-   "who": "@JohnDemer",
-   "said": "Sleep",
-   "reply": "Gogo curls into a shape with no clear front, and sleeps."
-  },
-  {
-   "t": 1788161115,
-   "who": "@JohnDemer",
-   "said": "Sleep",
-   "reply": "Gogo is already asleep. You are singing to a sleeping animal."
-  },
-  {
-   "t": 1788177464,
-   "who": "",
-   "said": "",
-   "reply": "( nobody came. It woke up on its own while nobody was here. )"
-  },
-  {
-   "t": 1788185491,
-   "who": "@JohnDemer",
-   "said": "Clean",
-   "reply": "Gogo is washed. It will remember this."
-  },
-  {
-   "t": 1788252148,
-   "who": "@JohnDemer",
-   "said": "Hello",
-   "reply": "Gogo knows you. That is the 11th time you have come."
-  },
-  {
-   "t": 1788252169,
-   "who": "@JohnDemer",
-   "said": "Drink",
-   "reply": "Gogo drinks for a long time, then sneezes."
-  },
-  {
-   "t": 1788252204,
-   "who": "@JohnDemer",
-   "said": "Food",
-   "reply": "Gogo eats without breathing and looks up for more."
-  },
-  {
-   "t": 1788367746,
-   "who": "@JohnDemer",
-   "said": "Food",
-   "reply": "Gogo inhales it. There is no chewing. There was never chewing."
-  },
-  {
-   "t": 1788367773,
-   "who": "@JohnDemer",
-   "said": "Water",
-   "reply": "Gogo drinks for a long time, then sneezes."
-  },
-  {
-   "t": 1788367802,
-   "who": "@JohnDemer",
-   "said": "Water",
-   "reply": "Gogo drinks half and stands in the rest."
-  },
-  {
-   "t": 1788367827,
-   "who": "@JohnDemer",
-   "said": "Food",
-   "reply": "Gogo eats it in one motion and then pretends nothing happened."
-  },
   {
    "t": 1788367840,
    "who": "@JohnDemer",
@@ -156,14 +48,16 @@
    "who": "",
    "said": "",
    "reply": "( nobody came. It did not make it. )"
+  },
+  {
+   "t": 1788639008,
+   "who": "",
+   "said": "",
+   "reply": "Gogo is gone. An egg was already waiting. This one is Koukou."
   }
  ],
- "carers": [
-  "@JohnDemer"
- ],
- "cooldown": {
-  "@JohnDemer": 1788437513
- },
+ "carers": [],
+ "cooldown": {},
  "graves": [
   {
    "gen": 1,
@@ -175,12 +69,10 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "water",
-  "count": 1
+  "intent": "",
+  "count": 0
  },
  "sulk_until": 0,
- "thread": 21,
- "seen": {
-  "@JohnDemer": 21
- }
+ "thread": 0,
+ "seen": {}
 }
