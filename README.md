@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Koukou:** “my mouth is a cupboard.”
+**Koukou:** “is there any of the wet thing left?”
 
-*hatchling · gen 2 · 18 hours old · currently **thirsty***
+*hatchling · gen 2 · 24 hours old · currently **thirsty***
 
 ```
-food   ███░░░░░░░  water  ██░░░░░░░░
-rest   █████░░░░░  clean  ██████░░░░
-health ██████████  bond   █████░░░░░
+food   ██░░░░░░░░  water  ░░░░░░░░░░
+rest   ████░░░░░░  clean  █████░░░░░
+health █████████░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *18h ago*
+**@JohnDemer** — *23h ago*
 
 > Hug
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *18h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *23h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *28h ago*
+*( nobody came. It did not make it. )* — *34h ago*
 
 ---
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Sleep
 
@@ -64,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Clean
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Food
 
