@@ -1,18 +1,18 @@
 # Koukou
 
 ```
-     ____
-    /    \
-    \____/
+    /\_/\
+   ( -   - )
+    >  ~  <
 ```
 
-**Koukou:** “today is one of the better ones.”
+**Koukou:** “i licked the wall. it was not it.”
 
-*egg · gen 2 · 5 hours old · currently **alright***
+*hatchling · gen 2 · 14 hours old · currently **thirsty***
 
 ```
-food   ██████░░░░  water  █████░░░░░
-rest   ███████░░░  clean  ████████░░
+food   ████░░░░░░  water  ███░░░░░░░
+rest   ██████░░░░  clean  ███████░░░
 health ██████████  bond   █████░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *5h ago*
+**@JohnDemer** — *13h ago*
 
 > Hug
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *5h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *13h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *15h ago*
+*( nobody came. It did not make it. )* — *24h ago*
 
 ---
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *2d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *3d ago*
 
 ---
 
