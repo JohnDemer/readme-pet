@@ -8,11 +8,11 @@
 
 **Koukou:** “today is one of the better ones.”
 
-*egg · gen 2 · 0 hours old · currently **alright***
+*egg · gen 2 · 5 hours old · currently **alright***
 
 ```
-food   ███████░░░  water  ███████░░░
-rest   ████████░░  clean  █████████░
+food   ██████░░░░  water  █████░░░░░
+rest   ███████░░░  clean  ████████░░
 health ██████████  bond   █████░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *5h ago*
 
 > Hug
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *just now*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *5h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *10h ago*
+*( nobody came. It did not make it. )* — *15h ago*
 
 ---
 
