@@ -6,13 +6,13 @@
     >  ~  <
 ```
 
-**Koukou:** “i licked the wall. it was not it.”
+**Koukou:** “my mouth is a cupboard.”
 
-*hatchling · gen 2 · 14 hours old · currently **thirsty***
+*hatchling · gen 2 · 18 hours old · currently **thirsty***
 
 ```
-food   ████░░░░░░  water  ███░░░░░░░
-rest   ██████░░░░  clean  ███████░░░
+food   ███░░░░░░░  water  ██░░░░░░░░
+rest   █████░░░░░  clean  ██████░░░░
 health ██████████  bond   █████░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *13h ago*
+**@JohnDemer** — *18h ago*
 
 > Hug
 
@@ -36,15 +36,15 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *13h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *18h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *24h ago*
+*( nobody came. It did not make it. )* — *28h ago*
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Drink
 
