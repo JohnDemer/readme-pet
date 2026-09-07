@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Koukou:** “i licked the wall. it was not it.”
+**Koukou:** “is there any of the wet thing left?”
 
-*hatchling · gen 2 · 29 hours old · currently **thirsty***
+*child · gen 2 · 39 hours old · currently **thirsty***
 
 ```
-food   █░░░░░░░░░  water  ░░░░░░░░░░
-rest   ███░░░░░░░  clean  █████░░░░░
-health ████████░░  bond   █████░░░░░
+food   ░░░░░░░░░░  water  ░░░░░░░░░░
+rest   █░░░░░░░░░  clean  ███░░░░░░░
+health █████░░░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *29h ago*
+**@JohnDemer** — *38h ago*
 
 > Hug
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *29h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *38h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *39h ago*
+*( nobody came. It did not make it. )* — *2d ago*
 
 ---
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *3d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *4d ago*
 
 ---
 
