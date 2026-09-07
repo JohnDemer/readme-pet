@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Koukou:** “is this what old is?”
+**Koukou:** “i feel wrong in the middle.”
 
-*child · gen 2 · 45 hours old · currently **unwell***
+*child · gen 2 · 49 hours old · currently **unwell***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
 rest   ░░░░░░░░░░  clean  ██░░░░░░░░
-health ███░░░░░░░  bond   █████░░░░░
+health ██░░░░░░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *44h ago*
+**@JohnDemer** — *2d ago*
 
 > Hug
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *44h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *2d ago*
 
 ---
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Sleep
 
@@ -64,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Clean
 
@@ -72,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Food
 
