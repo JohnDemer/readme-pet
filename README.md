@@ -2,18 +2,18 @@
 
 ```
     /\_/\
-   ( -   - )
+   ( @   @ )
     >  ~  <
 ```
 
-**Koukou:** “is there any of the wet thing left?”
+**Koukou:** “is this what old is?”
 
-*child · gen 2 · 39 hours old · currently **thirsty***
+*child · gen 2 · 45 hours old · currently **unwell***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   █░░░░░░░░░  clean  ███░░░░░░░
-health █████░░░░░  bond   █████░░░░░
+rest   ░░░░░░░░░░  clean  ██░░░░░░░░
+health ███░░░░░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *38h ago*
+**@JohnDemer** — *44h ago*
 
 > Hug
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *38h ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *44h ago*
 
 ---
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Drink
 
