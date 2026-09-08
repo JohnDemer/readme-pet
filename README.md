@@ -6,9 +6,9 @@
     >  _  <
 ```
 
-**Koukou:** “( the screen is quiet now )”
+**Koukou:** “( an egg is waiting )”
 
-*gone · gen 2 · 67 hours old · currently **gone***
+*gone · gen 2 · 72 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -28,11 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *5h ago*
+*( nobody came. It did not make it. )* — *10h ago*
 
 ---
 
-**@JohnDemer** — *2d ago*
+**@JohnDemer** — *3d ago*
 
 > Hug
 
@@ -40,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *2d ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *3d ago*
 
 ---
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > Sleep
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > Clean
 
@@ -76,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *5d ago*
+**@JohnDemer** — *6d ago*
 
 > Food
 
