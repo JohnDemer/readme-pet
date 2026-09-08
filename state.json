@@ -2,16 +2,16 @@
  "gen": 2,
  "name": "Koukou",
  "born": 1788639008,
- "last": 1788831628,
+ "last": 1788862233,
  "hunger": 0,
  "thirst": 0,
  "energy": 0,
- "clean": 9.741666666666665,
- "bond": 46.60236111111111,
- "health": 8.471111111111123,
+ "clean": 0,
+ "bond": 44.477013888888884,
+ "health": 0,
  "asleep": false,
- "dead": false,
- "cause": "",
+ "dead": true,
+ "cause": "neglect",
  "chat": [
   {
    "t": 1788367840,
@@ -60,6 +60,12 @@
    "who": "@JohnDemer",
    "said": "Hug",
    "reply": "Koukou bumps its head against you until you continue."
+  },
+  {
+   "t": 1788862233,
+   "who": "",
+   "said": "",
+   "reply": "( nobody came. It did not make it. )"
   }
  ],
  "carers": [
@@ -69,6 +75,13 @@
   "@JohnDemer": 1788639095
  },
  "graves": [
+  {
+   "gen": 2,
+   "name": "Koukou",
+   "hours": 62.0,
+   "cause": "neglect",
+   "carers": 1
+  },
   {
    "gen": 1,
    "name": "Gogo",

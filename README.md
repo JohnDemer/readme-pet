@@ -2,18 +2,18 @@
 
 ```
     /\_/\
-   ( @   @ )
-    >  ~  <
+   ( x   x )
+    >  _  <
 ```
 
-**Koukou:** “i feel wrong in the middle.”
+**Koukou:** “( the screen is quiet now )”
 
-*child · gen 2 · 54 hours old · currently **unwell***
+*gone · gen 2 · 62 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ░░░░░░░░░░  clean  █░░░░░░░░░
-health █░░░░░░░░░  bond   █████░░░░░
+rest   ░░░░░░░░░░  clean  ░░░░░░░░░░
+health ░░░░░░░░░░  bond   ████░░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
@@ -28,6 +28,10 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
+*( nobody came. It did not make it. )* — *just now*
+
+---
+
 **@JohnDemer** — *2d ago*
 
 > Hug
@@ -40,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *2d ago*
+*( nobody came. It did not make it. )* — *3d ago*
 
 ---
 
@@ -52,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *4d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *5d ago*
 
 ---
 
@@ -86,6 +90,7 @@ It replies to everything else as well, in its own way.
 
 | Gen | Name | Lived | Died of | People |
 |---:|---|---:|---|---:|
+| 2 | Koukou | 62.0h | neglect | 1 |
 | 1 | Gogo | 139.3h | neglect | 1 |
 
 <details><summary>How it works</summary>
