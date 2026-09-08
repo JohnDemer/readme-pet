@@ -8,12 +8,12 @@
 
 **Koukou:** “i feel wrong in the middle.”
 
-*child · gen 2 · 49 hours old · currently **unwell***
+*child · gen 2 · 54 hours old · currently **unwell***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ░░░░░░░░░░  clean  ██░░░░░░░░
-health ██░░░░░░░░  bond   █████░░░░░
+rest   ░░░░░░░░░░  clean  █░░░░░░░░░
+health █░░░░░░░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
