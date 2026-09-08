@@ -8,7 +8,7 @@
 
 **Koukou:** “( the screen is quiet now )”
 
-*gone · gen 2 · 62 hours old · currently **gone***
+*gone · gen 2 · 67 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *just now*
+*( nobody came. It did not make it. )* — *5h ago*
 
 ---
 
@@ -48,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Drink
 
