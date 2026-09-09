@@ -6,13 +6,13 @@
     \____/
 ```
 
-**Gogo:** “what is outside? is it the same outside?”
+**Gogo:** “today is one of the better ones.”
 
-*egg · gen 3 · 0 hours old · currently **alright***
+*egg · gen 3 · 4 hours old · currently **alright***
 
 ```
-food   ███████░░░  water  ██████████
-rest   ████████░░  clean  █████████░
+food   ██████░░░░  water  █████████░
+rest   ███████░░░  clean  ████████░░
 health ██████████  bond   ████░░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *3h ago*
 
 > water
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *just now*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *3h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *20h ago*
+*( nobody came. It did not make it. )* — *24h ago*
 
 ---
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *3d ago*
+*( nobody came. It did not make it. )* — *4d ago*
 
 ---
 
