@@ -2,12 +2,12 @@
  "gen": 3,
  "name": "Gogo",
  "born": 1788934486,
- "last": 1788934486,
- "hunger": 70,
- "thirst": 70,
- "energy": 80,
- "clean": 90,
- "bond": 40,
+ "last": 1788934522,
+ "hunger": 69.98,
+ "thirst": 100,
+ "energy": 79.982,
+ "clean": 89.985,
+ "bond": 42,
  "health": 100,
  "asleep": false,
  "dead": false,
@@ -54,10 +54,20 @@
    "who": "",
    "said": "",
    "reply": "Koukou is gone. An egg was already waiting. This one is Gogo."
+  },
+  {
+   "t": 1788934522,
+   "who": "@JohnDemer",
+   "said": "water",
+   "reply": "Gogo drinks for a long time, then sneezes."
   }
  ],
- "carers": [],
- "cooldown": {},
+ "carers": [
+  "@JohnDemer"
+ ],
+ "cooldown": {
+  "@JohnDemer": 1788934522
+ },
  "graves": [
   {
    "gen": 2,
@@ -76,10 +86,12 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "",
-  "count": 0
+  "intent": "water",
+  "count": 1
  },
  "sulk_until": 0,
- "thread": 0,
- "seen": {}
+ "thread": 23,
+ "seen": {
+  "@JohnDemer": 1
+ }
 }

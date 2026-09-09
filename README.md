@@ -6,17 +6,17 @@
     \____/
 ```
 
-**Gogo:** “i like it when the light does that.”
+**Gogo:** “what is outside? is it the same outside?”
 
 *egg · gen 3 · 0 hours old · currently **alright***
 
 ```
-food   ███████░░░  water  ███████░░░
+food   ███████░░░  water  ██████████
 rest   ████████░░  clean  █████████░
 health ██████████  bond   ████░░░░░░
 ```
 
-## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/1)
+## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
 
 That opens the one thread everybody uses. Type a message in the box at the bottom, press Comment, and Gogo answers you underneath within about half a minute. No titles, no forms, nothing to fill in.
 
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> water
+
+**Gogo:** Gogo drinks for a long time, then sneezes.
+
+---
 
 *Koukou is gone. An egg was already waiting. This one is Gogo.* — *just now*
 
@@ -64,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*0 people have talked to this one.*
+*1 people have talked to this one.*
 
 ## The ones before
 
