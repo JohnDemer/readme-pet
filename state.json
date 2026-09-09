@@ -1,36 +1,18 @@
 {
- "gen": 2,
- "name": "Koukou",
- "born": 1788639008,
- "last": 1788918477,
- "hunger": 0,
- "thirst": 0,
- "energy": 0,
- "clean": 0,
- "bond": 44.477013888888884,
- "health": 0,
+ "gen": 3,
+ "name": "Gogo",
+ "born": 1788934486,
+ "last": 1788934486,
+ "hunger": 70,
+ "thirst": 70,
+ "energy": 80,
+ "clean": 90,
+ "bond": 40,
+ "health": 100,
  "asleep": false,
- "dead": true,
- "cause": "neglect",
+ "dead": false,
+ "cause": "",
  "chat": [
-  {
-   "t": 1788367840,
-   "who": "@JohnDemer",
-   "said": "Food",
-   "reply": "Gogo eats, then checks the floor in case the floor also has some."
-  },
-  {
-   "t": 1788367852,
-   "who": "@JohnDemer",
-   "said": "Clean",
-   "reply": "Gogo shakes once and redistributes the water onto you."
-  },
-  {
-   "t": 1788367876,
-   "who": "@JohnDemer",
-   "said": "Sleep",
-   "reply": "Gogo sleeps with one eye slightly open, which is worse."
-  },
   {
    "t": 1788399786,
    "who": "",
@@ -66,14 +48,16 @@
    "who": "",
    "said": "",
    "reply": "( nobody came. It did not make it. )"
+  },
+  {
+   "t": 1788934486,
+   "who": "",
+   "said": "",
+   "reply": "Koukou is gone. An egg was already waiting. This one is Gogo."
   }
  ],
- "carers": [
-  "@JohnDemer"
- ],
- "cooldown": {
-  "@JohnDemer": 1788639095
- },
+ "carers": [],
+ "cooldown": {},
  "graves": [
   {
    "gen": 2,
@@ -92,12 +76,10 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "love",
-  "count": 1
+  "intent": "",
+  "count": 0
  },
  "sulk_until": 0,
- "thread": 1,
- "seen": {
-  "@JohnDemer": 1
- }
+ "thread": 0,
+ "seen": {}
 }

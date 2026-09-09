@@ -1,24 +1,24 @@
-# Koukou
+# Gogo
 
 ```
-    /\_/\
-   ( x   x )
-    >  _  <
+     ____
+    /    \
+    \____/
 ```
 
-**Koukou:** “( the screen is quiet now )”
+**Gogo:** “i like it when the light does that.”
 
-*gone · gen 2 · 78 hours old · currently **gone***
+*egg · gen 3 · 0 hours old · currently **alright***
 
 ```
-food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ░░░░░░░░░░  clean  ░░░░░░░░░░
-health ░░░░░░░░░░  bond   ████░░░░░░
+food   ███████░░░  water  ███████░░░
+rest   ████████░░  clean  █████████░
+health ██████████  bond   ████░░░░░░
 ```
 
-## ➤ [Talk to Koukou here](https://github.com/JohnDemer/readme-pet/issues/1)
+## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/1)
 
-That opens the one thread everybody uses. Type a message in the box at the bottom, press Comment, and Koukou answers you underneath within about half a minute. No titles, no forms, nothing to fill in.
+That opens the one thread everybody uses. Type a message in the box at the bottom, press Comment, and Gogo answers you underneath within about half a minute. No titles, no forms, nothing to fill in.
 
 It understands quite a lot, in English or Greek: **food, sweets, water, play, walks, sleep, washing, kindness, songs, medicine** — and it answers questions too. Try *how are you*, *what do you want*, *what is your name*, or tell it **your name is …** and it will take the name.
 
@@ -28,7 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *15h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *just now*
+
+---
+
+*( nobody came. It did not make it. )* — *20h ago*
 
 ---
 
@@ -36,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 > Hug
 
-**Koukou:** Koukou bumps its head against you until you continue.
+**Gogo:** Koukou bumps its head against you until you continue.
 
 ---
 
@@ -52,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 > Drink
 
-**Koukou:** Gogo drinks with its whole face and comes back wet.
+**Gogo:** Gogo drinks with its whole face and comes back wet.
 
 ---
 
@@ -60,31 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *6d ago*
-
-> Sleep
-
-**Koukou:** Gogo sleeps with one eye slightly open, which is worse.
-
----
-
-**@JohnDemer** — *6d ago*
-
-> Clean
-
-**Koukou:** Gogo shakes once and redistributes the water onto you.
-
----
-
-**@JohnDemer** — *6d ago*
-
-> Food
-
-**Koukou:** Gogo eats, then checks the floor in case the floor also has some.
-
----
-
-*1 people have talked to this one.*
+*0 people have talked to this one.*
 
 ## The ones before
 
