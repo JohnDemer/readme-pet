@@ -3,16 +3,16 @@
 ```
     /\_/\
    ( o   o )
-    >  -  <
+    >  O  <
 ```
 
-**Gogo:** “today is one of the better ones.”
+**Gogo:** “i chewed on nothing for a while. it went badly.”
 
-*hatchling · gen 3 · 9 hours old · currently **alright***
+*hatchling · gen 3 · 14 hours old · currently **hungry***
 
 ```
-food   █████░░░░░  water  ███████░░░
-rest   ██████░░░░  clean  ████████░░
+food   ████░░░░░░  water  ██████░░░░
+rest   ██████░░░░  clean  ███████░░░
 health ██████████  bond   ████░░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *9h ago*
+**@JohnDemer** — *13h ago*
 
 > water
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *9h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *13h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *29h ago*
+*( nobody came. It did not make it. )* — *33h ago*
 
 ---
 
