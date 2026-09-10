@@ -2,18 +2,18 @@
 
 ```
     /\_/\
-   ( o   o )
-    >  O  <
+   ( -   - )
+    >  ~  <
 ```
 
-**Gogo:** “i chewed on nothing for a while. it went badly.”
+**Gogo:** “is there any of the wet thing left?”
 
-*hatchling · gen 3 · 28 hours old · currently **hungry***
+*hatchling · gen 3 · 33 hours old · currently **thirsty***
 
 ```
-food   █░░░░░░░░░  water  ██░░░░░░░░
-rest   ███░░░░░░░  clean  █████░░░░░
-health █████████░  bond   ████░░░░░░
+food   ░░░░░░░░░░  water  ░░░░░░░░░░
+rest   ██░░░░░░░░  clean  ████░░░░░░
+health ████████░░  bond   ████░░░░░░
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *27h ago*
+**@JohnDemer** — *33h ago*
 
 > water
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *27h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *33h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *47h ago*
+*( nobody came. It did not make it. )* — *2d ago*
 
 ---
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *6d ago*
+**@JohnDemer** — *7d ago*
 
 > Drink
 
