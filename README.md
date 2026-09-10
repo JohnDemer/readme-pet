@@ -6,13 +6,13 @@
     >  _  <
 ```
 
-**Gogo:** “( dreaming about the bowl )”
+**Gogo:** “( one foot is twitching )”
 
-*child · gen 3 · 37 hours old · currently **asleep***
+*child · gen 3 · 38 hours old · currently **asleep***
 
 ```
 food   ██████░░░░  water  ████░░░░░░
-rest   █░░░░░░░░░  clean  ███░░░░░░░
+rest   ██░░░░░░░░  clean  ███░░░░░░░
 health ███████░░░  bond   █████░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *46 min ago*
 
 > Sleep
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *47 min ago*
 
 > Food
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *just now*
+**@JohnDemer** — *47 min ago*
 
 > Water
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *2h ago*
+**@JohnDemer** — *3h ago*
 
 > Food
 
