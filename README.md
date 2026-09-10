@@ -8,11 +8,11 @@
 
 **Gogo:** “i chewed on nothing for a while. it went badly.”
 
-*hatchling · gen 3 · 14 hours old · currently **hungry***
+*hatchling · gen 3 · 19 hours old · currently **hungry***
 
 ```
-food   ████░░░░░░  water  ██████░░░░
-rest   ██████░░░░  clean  ███████░░░
+food   ███░░░░░░░  water  ████░░░░░░
+rest   ████░░░░░░  clean  ██████░░░░
 health ██████████  bond   ████░░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *13h ago*
+**@JohnDemer** — *19h ago*
 
 > water
 
@@ -36,15 +36,15 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *13h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *19h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *33h ago*
+*( nobody came. It did not make it. )* — *39h ago*
 
 ---
 
-**@JohnDemer** — *3d ago*
+**@JohnDemer** — *4d ago*
 
 > Hug
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *3d ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *4d ago*
 
 ---
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *6d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *7d ago*
 
 ---
 
