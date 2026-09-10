@@ -8,12 +8,12 @@
 
 **Gogo:** “i chewed on nothing for a while. it went badly.”
 
-*hatchling · gen 3 · 19 hours old · currently **hungry***
+*hatchling · gen 3 · 28 hours old · currently **hungry***
 
 ```
-food   ███░░░░░░░  water  ████░░░░░░
-rest   ████░░░░░░  clean  ██████░░░░
-health ██████████  bond   ████░░░░░░
+food   █░░░░░░░░░  water  ██░░░░░░░░
+rest   ███░░░░░░░  clean  █████░░░░░
+health █████████░  bond   ████░░░░░░
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *19h ago*
+**@JohnDemer** — *27h ago*
 
 > water
 
@@ -36,11 +36,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *19h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *27h ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *39h ago*
+*( nobody came. It did not make it. )* — *47h ago*
 
 ---
 
@@ -56,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *4d ago*
+*( nobody came. It did not make it. )* — *5d ago*
 
 ---
 
