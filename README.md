@@ -6,14 +6,14 @@
     >  z  <
 ```
 
-**Gogo:** “everything is heavier than this morning.”
+**Gogo:** “is it night? it feels like night in here.”
 
 *child · gen 3 · 37 hours old · currently **exhausted***
 
 ```
-food   ███░░░░░░░  water  ████░░░░░░
+food   ██████░░░░  water  ████░░░░░░
 rest   █░░░░░░░░░  clean  ███░░░░░░░
-health ███████░░░  bond   ████░░░░░░
+health ███████░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
@@ -27,6 +27,14 @@ It replies to everything else as well, in its own way.
 > It never says what it needs outright. Read what it says, check the bars, and don't do the same thing over and over — it has a limit, and you will find it.
 
 ## The conversation
+
+**@JohnDemer** — *just now*
+
+> Food
+
+**Gogo:** Gogo eats without breathing and looks up for more.
+
+---
 
 **@JohnDemer** — *just now*
 

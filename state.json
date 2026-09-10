@@ -2,12 +2,12 @@
  "gen": 3,
  "name": "Gogo",
  "born": 1788934486,
- "last": 1789068072,
- "hunger": 27.78555555555556,
- "thirst": 38,
- "energy": 13.206999999999994,
- "clean": 30.339166666666664,
- "bond": 44.89472222222222,
+ "last": 1789068112,
+ "hunger": 59.763333333333335,
+ "thirst": 37.96666666666667,
+ "energy": 13.186999999999994,
+ "clean": 26.322499999999998,
+ "bond": 47.89472222222222,
  "health": 71.30727777777778,
  "asleep": false,
  "dead": false,
@@ -72,13 +72,19 @@
    "who": "@JohnDemer",
    "said": "Water",
    "reply": "Gogo drinks with its whole face and comes back wet."
+  },
+  {
+   "t": 1789068112,
+   "who": "@JohnDemer",
+   "said": "Food",
+   "reply": "Gogo eats without breathing and looks up for more."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1789068072
+  "@JohnDemer": 1789068112
  },
  "graves": [
   {
@@ -98,12 +104,12 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "water",
+  "intent": "feed",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 23,
  "seen": {
-  "@JohnDemer": 3
+  "@JohnDemer": 4
  }
 }
