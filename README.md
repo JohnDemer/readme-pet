@@ -6,14 +6,14 @@
     >  ~  <
 ```
 
-**Gogo:** “is there any of the wet thing left?”
+**Gogo:** “my mouth is a cupboard.”
 
-*hatchling · gen 3 · 33 hours old · currently **thirsty***
+*hatchling · gen 3 · 35 hours old · currently **thirsty***
 
 ```
-food   ░░░░░░░░░░  water  ░░░░░░░░░░
-rest   ██░░░░░░░░  clean  ████░░░░░░
-health ████████░░  bond   ████░░░░░░
+food   ███░░░░░░░  water  ░░░░░░░░░░
+rest   ██░░░░░░░░  clean  ███░░░░░░░
+health ███████░░░  bond   ████░░░░░░
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
@@ -28,7 +28,15 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *33h ago*
+**@JohnDemer** — *just now*
+
+> Food
+
+**Gogo:** Gogo inhales it. There is no chewing. There was never chewing.
+
+---
+
+**@JohnDemer** — *34h ago*
 
 > water
 
@@ -36,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *33h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *34h ago*
 
 ---
 

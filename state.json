@@ -2,13 +2,13 @@
  "gen": 3,
  "name": "Gogo",
  "born": 1788934486,
- "last": 1789053573,
- "hunger": 3.8405555555555573,
- "thirst": 0.7908333333333335,
- "energy": 20.456499999999995,
- "clean": 40.38041666666666,
- "bond": 39.89472222222222,
- "health": 78.23066666666666,
+ "last": 1789059355,
+ "hunger": 32.62833333333334,
+ "thirst": 0,
+ "energy": 17.565499999999993,
+ "clean": 33.97125,
+ "bond": 42.89472222222222,
+ "health": 74.69722222222222,
  "asleep": false,
  "dead": false,
  "cause": "",
@@ -60,13 +60,19 @@
    "who": "@JohnDemer",
    "said": "water",
    "reply": "Gogo drinks for a long time, then sneezes."
+  },
+  {
+   "t": 1789059355,
+   "who": "@JohnDemer",
+   "said": "Food",
+   "reply": "Gogo inhales it. There is no chewing. There was never chewing."
   }
  ],
  "carers": [
   "@JohnDemer"
  ],
  "cooldown": {
-  "@JohnDemer": 1788934522
+  "@JohnDemer": 1789059355
  },
  "graves": [
   {
@@ -86,12 +92,12 @@
  ],
  "mood": "dance",
  "streak": {
-  "intent": "water",
+  "intent": "feed",
   "count": 1
  },
  "sulk_until": 0,
  "thread": 23,
  "seen": {
-  "@JohnDemer": 1
+  "@JohnDemer": 2
  }
 }
