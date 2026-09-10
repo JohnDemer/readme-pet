@@ -3,16 +3,16 @@
 ```
     /\_/\
    ( -   - )
-    >  ~  <
+    >  z  <
 ```
 
-**Gogo:** “my mouth is a cupboard.”
+**Gogo:** “everything is heavier than this morning.”
 
-*hatchling · gen 3 · 35 hours old · currently **thirsty***
+*child · gen 3 · 37 hours old · currently **exhausted***
 
 ```
-food   ███░░░░░░░  water  ░░░░░░░░░░
-rest   ██░░░░░░░░  clean  ███░░░░░░░
+food   ███░░░░░░░  water  ████░░░░░░
+rest   █░░░░░░░░░  clean  ███░░░░░░░
 health ███████░░░  bond   ████░░░░░░
 ```
 
@@ -30,13 +30,21 @@ It replies to everything else as well, in its own way.
 
 **@JohnDemer** — *just now*
 
+> Water
+
+**Gogo:** Gogo drinks with its whole face and comes back wet.
+
+---
+
+**@JohnDemer** — *2h ago*
+
 > Food
 
 **Gogo:** Gogo inhales it. There is no chewing. There was never chewing.
 
 ---
 
-**@JohnDemer** — *34h ago*
+**@JohnDemer** — *37h ago*
 
 > water
 
@@ -44,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *34h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *37h ago*
 
 ---
 
