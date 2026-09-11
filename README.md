@@ -6,13 +6,13 @@
     >  _  <
 ```
 
-**Gogo:** “( one foot is twitching )”
+**Gogo:** “zzz”
 
-*child · gen 3 · 38 hours old · currently **asleep***
+*child · gen 3 · 43 hours old · currently **asleep***
 
 ```
-food   ██████░░░░  water  ████░░░░░░
-rest   ██░░░░░░░░  clean  ███░░░░░░░
+food   █████░░░░░  water  ██░░░░░░░░
+rest   █████████░  clean  ██░░░░░░░░
 health ███████░░░  bond   █████░░░░░
 ```
 
@@ -28,7 +28,7 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *46 min ago*
+**@JohnDemer** — *6h ago*
 
 > Sleep
 
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *47 min ago*
+**@JohnDemer** — *6h ago*
 
 > Food
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *47 min ago*
+**@JohnDemer** — *6h ago*
 
 > Water
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *3h ago*
+**@JohnDemer** — *8h ago*
 
 > Food
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *37h ago*
+**@JohnDemer** — *43h ago*
 
 > water
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *37h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *43h ago*
 
 ---
 
@@ -76,7 +76,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Hug
 
@@ -84,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *4d ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *5d ago*
 
 ---
 
