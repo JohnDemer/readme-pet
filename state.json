@@ -2,14 +2,14 @@
  "gen": 3,
  "name": "Gogo",
  "born": 1788934486,
- "last": 1789090922,
- "hunger": 47.09111111111111,
- "thirst": 18.95833333333333,
- "energy": 89.12833333333333,
- "clean": 16.818333333333328,
- "bond": 49.89472222222222,
- "health": 66.86572222222223,
- "asleep": true,
+ "last": 1789121122,
+ "hunger": 30.313333333333333,
+ "thirst": 0,
+ "energy": 100,
+ "clean": 4.234999999999994,
+ "bond": 47.7975,
+ "health": 48.410166666666676,
+ "asleep": false,
  "dead": false,
  "cause": "",
  "chat": [
@@ -84,6 +84,12 @@
    "who": "@JohnDemer",
    "said": "Sleep",
    "reply": "Gogo sleeps with one eye slightly open, which is worse."
+  },
+  {
+   "t": 1789121122,
+   "who": "",
+   "said": "",
+   "reply": "( nobody came. It woke up on its own while nobody was here. )"
   }
  ],
  "carers": [

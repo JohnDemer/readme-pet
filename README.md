@@ -1,19 +1,19 @@
 # Gogo
 
 ```
-    /\_/\      z
-   ( _   _ )   z
-    >  _  <
+    /\_/\
+   ( -   - )
+    >  ~  <
 ```
 
-**Gogo:** “zzz”
+**Gogo:** “is there any of the wet thing left?”
 
-*child · gen 3 · 43 hours old · currently **asleep***
+*child · gen 3 · 52 hours old · currently **thirsty***
 
 ```
-food   █████░░░░░  water  ██░░░░░░░░
-rest   █████████░  clean  ██░░░░░░░░
-health ███████░░░  bond   █████░░░░░
+food   ███░░░░░░░  water  ░░░░░░░░░░
+rest   ██████████  clean  ░░░░░░░░░░
+health █████░░░░░  bond   █████░░░░░
 ```
 
 ## ➤ [Talk to Gogo here](https://github.com/JohnDemer/readme-pet/issues/23)
@@ -28,7 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-**@JohnDemer** — *6h ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *just now*
+
+---
+
+**@JohnDemer** — *14h ago*
 
 > Sleep
 
@@ -36,7 +40,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *6h ago*
+**@JohnDemer** — *14h ago*
 
 > Food
 
@@ -44,7 +48,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *6h ago*
+**@JohnDemer** — *14h ago*
 
 > Water
 
@@ -52,7 +56,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *8h ago*
+**@JohnDemer** — *17h ago*
 
 > Food
 
@@ -60,7 +64,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43h ago*
+**@JohnDemer** — *2d ago*
 
 > water
 
@@ -68,7 +72,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *43h ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *2d ago*
 
 ---
 
@@ -88,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *5d ago*
+*( nobody came. It did not make it. )* — *6d ago*
 
 ---
 
@@ -100,7 +104,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *7d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *8d ago*
 
 ---
 
