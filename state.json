@@ -2,16 +2,16 @@
  "gen": 3,
  "name": "Gogo",
  "born": 1788934486,
- "last": 1789157273,
- "hunger": 10.229444444444447,
+ "last": 1789177688,
+ "hunger": 0,
  "thirst": 0,
- "energy": 81.92450000000001,
+ "energy": 71.71700000000001,
  "clean": 0,
  "bond": 47.7975,
- "health": 18.28433333333334,
+ "health": 0,
  "asleep": false,
- "dead": false,
- "cause": "",
+ "dead": true,
+ "cause": "neglect",
  "chat": [
   {
    "t": 1788399786,
@@ -90,6 +90,12 @@
    "who": "",
    "said": "",
    "reply": "( nobody came. It woke up on its own while nobody was here. )"
+  },
+  {
+   "t": 1789177688,
+   "who": "",
+   "said": "",
+   "reply": "( nobody came. It did not make it. )"
   }
  ],
  "carers": [
@@ -99,6 +105,13 @@
   "@JohnDemer": 1789068136
  },
  "graves": [
+  {
+   "gen": 3,
+   "name": "Gogo",
+   "hours": 67.6,
+   "cause": "neglect",
+   "carers": 1
+  },
   {
    "gen": 2,
    "name": "Koukou",
