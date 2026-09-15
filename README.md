@@ -8,7 +8,7 @@
 
 **Gogo:** “( an egg is waiting )”
 
-*gone · gen 3 · 154 hours old · currently **gone***
+*gone · gen 3 · 158 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -36,7 +36,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Sleep
 
@@ -44,7 +44,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Food
 
@@ -52,7 +52,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Water
 
@@ -60,7 +60,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *4d ago*
+**@JohnDemer** — *5d ago*
 
 > Food
 
@@ -84,7 +84,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *9d ago*
+**@JohnDemer** — *10d ago*
 
 > Hug
 
@@ -92,7 +92,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Gogo is gone. An egg was already waiting. This one is Koukou.* — *9d ago*
+*Gogo is gone. An egg was already waiting. This one is Koukou.* — *10d ago*
 
 ---
 
