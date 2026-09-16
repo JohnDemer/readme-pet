@@ -8,7 +8,7 @@
 
 **Gogo:** “( the screen is quiet now )”
 
-*gone · gen 3 · 164 hours old · currently **gone***
+*gone · gen 3 · 172 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -32,7 +32,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *4d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *5d ago*
 
 ---
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *6d ago*
+**@JohnDemer** — *7d ago*
 
 > water
 
@@ -76,11 +76,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *6d ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *7d ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *7d ago*
+*( nobody came. It did not make it. )* — *8d ago*
 
 ---
 
@@ -96,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *10d ago*
+*( nobody came. It did not make it. )* — *11d ago*
 
 ---
 
