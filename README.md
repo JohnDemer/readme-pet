@@ -8,7 +8,7 @@
 
 **Gogo:** “( the screen is quiet now )”
 
-*gone · gen 3 · 364 hours old · currently **gone***
+*gone · gen 3 · 370 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -100,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *20d ago*
+**@JohnDemer** — *21d ago*
 
 > Drink
 
