@@ -6,9 +6,9 @@
     >  _  <
 ```
 
-**Gogo:** “( the screen is quiet now )”
+**Gogo:** “( an egg is waiting )”
 
-*gone · gen 3 · 605 hours old · currently **gone***
+*gone · gen 3 · 610 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -100,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *30d ago*
+**@JohnDemer** — *31d ago*
 
 > Drink
 
