@@ -6,9 +6,9 @@
     >  _  <
 ```
 
-**Gogo:** “( an egg is waiting )”
+**Gogo:** “( the screen is quiet now )”
 
-*gone · gen 3 · 669 hours old · currently **gone***
+*gone · gen 3 · 678 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -32,7 +32,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *25d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *26d ago*
 
 ---
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *27d ago*
+**@JohnDemer** — *28d ago*
 
 > water
 
@@ -76,11 +76,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *27d ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *28d ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *28d ago*
+*( nobody came. It did not make it. )* — *29d ago*
 
 ---
 
@@ -96,7 +96,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *31d ago*
+*( nobody came. It did not make it. )* — *32d ago*
 
 ---
 
