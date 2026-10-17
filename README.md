@@ -8,7 +8,7 @@
 
 **Gogo:** “( an egg is waiting )”
 
-*gone · gen 3 · 916 hours old · currently **gone***
+*gone · gen 3 · 920 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -32,7 +32,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *35d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *36d ago*
 
 ---
 
@@ -80,7 +80,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *38d ago*
+*( nobody came. It did not make it. )* — *39d ago*
 
 ---
 
@@ -100,7 +100,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *43d ago*
+**@JohnDemer** — *44d ago*
 
 > Drink
 
