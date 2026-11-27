@@ -6,9 +6,9 @@
     >  _  <
 ```
 
-**Gogo:** “( an egg is waiting )”
+**Gogo:** “( the screen is quiet now )”
 
-*gone · gen 3 · 1891 hours old · currently **gone***
+*gone · gen 3 · 1905 hours old · currently **gone***
 
 ```
 food   ░░░░░░░░░░  water  ░░░░░░░░░░
@@ -28,11 +28,11 @@ It replies to everything else as well, in its own way.
 
 ## The conversation
 
-*( nobody came. It did not make it. )* — *75d ago*
+*( nobody came. It did not make it. )* — *76d ago*
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *76d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *77d ago*
 
 ---
 
@@ -68,7 +68,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-**@JohnDemer** — *78d ago*
+**@JohnDemer** — *79d ago*
 
 > water
 
@@ -76,11 +76,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*Koukou is gone. An egg was already waiting. This one is Gogo.* — *78d ago*
+*Koukou is gone. An egg was already waiting. This one is Gogo.* — *79d ago*
 
 ---
 
-*( nobody came. It did not make it. )* — *79d ago*
+*( nobody came. It did not make it. )* — *80d ago*
 
 ---
 
@@ -96,11 +96,11 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It did not make it. )* — *82d ago*
+*( nobody came. It did not make it. )* — *83d ago*
 
 ---
 
-**@JohnDemer** — *84d ago*
+**@JohnDemer** — *85d ago*
 
 > Drink
 
@@ -108,7 +108,7 @@ It replies to everything else as well, in its own way.
 
 ---
 
-*( nobody came. It woke up on its own while nobody was here. )* — *84d ago*
+*( nobody came. It woke up on its own while nobody was here. )* — *85d ago*
 
 ---
 
